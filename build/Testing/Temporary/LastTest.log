@@ -1,0 +1,19 @@
+Start testing: Jun 09 16:47 MSK
+----------------------------------------------------------
+Unable to find executable: COMMAND
+1/1 Testing: my_test
+1/1 Test: my_test
+Command: "" "my_test"
+Directory: /home/amgalan/CLionProjects/untitled/build
+"my_test" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"my_test" end time: Jun 09 16:47 MSK
+"my_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Jun 09 16:47 MSK

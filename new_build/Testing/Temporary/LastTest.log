@@ -1,0 +1,24 @@
+Start testing: Jun 11 21:48 MSK
+----------------------------------------------------------
+1/1 Testing: Block_GetCellPositions
+1/1 Test: Block_GetCellPositions
+Command: "/home/amgalan/CLionProjects/untitled/new_build/my_test"
+Directory: /home/amgalan/CLionProjects/untitled/new_build
+"Block_GetCellPositions" start time: Jun 11 21:48 MSK
+Output:
+----------------------------------------------------------
+[doctest] doctest version is "2.4.11"
+[doctest] run with "--help" for options
+===============================================================================
+[doctest] test cases:  1 |  1 passed | 0 failed | 0 skipped
+[doctest] assertions: 10 | 10 passed | 0 failed |
+[doctest] Status: SUCCESS!
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"Block_GetCellPositions" end time: Jun 11 21:48 MSK
+"Block_GetCellPositions" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Jun 11 21:48 MSK
