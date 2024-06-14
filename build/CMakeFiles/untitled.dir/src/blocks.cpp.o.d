@@ -1,7 +1,7 @@
 CMakeFiles/untitled.dir/src/blocks.cpp.o: \
- /home/amgalan/CLionProjects/tetris/src/blocks.cpp \
+ /home/amgalan/Documents/university/aip/project/ForAristarh/src/blocks.cpp \
  /usr/include/stdc-predef.h \
- /home/amgalan/CLionProjects/tetris/src/block.h \
+ /home/amgalan/Documents/university/aip/project/ForAristarh/src/block.h \
  /usr/include/c++/11/vector /usr/include/c++/11/bits/stl_algobase.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
@@ -55,7 +55,7 @@ CMakeFiles/untitled.dir/src/blocks.cpp.o: \
  /usr/include/c++/11/bits/invoke.h \
  /usr/include/c++/11/bits/stl_multimap.h \
  /usr/include/c++/11/bits/erase_if.h \
- /home/amgalan/CLionProjects/tetris/src/position.h \
- /home/amgalan/CLionProjects/tetris/src/colors.h \
- /home/amgalan/CLionProjects/tetris/build/_deps/raylib-src/src/raylib.h \
+ /home/amgalan/Documents/university/aip/project/ForAristarh/src/position.h \
+ /home/amgalan/Documents/university/aip/project/ForAristarh/src/colors.h \
+ /home/amgalan/Documents/university/aip/project/ForAristarh/build/_deps/raylib-src/src/raylib.h \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdarg.h

@@ -1,0 +1,12 @@
+<map id="ma_bpf_node" name="ma_bpf_node">
+<area shape="rect" id="node1" title=" " alt="" coords="370,483,481,509"/>
+<area shape="rect" id="node2" href="$structma__node__base.html" title=" " alt="" coords="181,379,301,405"/>
+<area shape="rect" id="node6" href="$structma__node__graph.html" title=" " alt="" coords="189,483,315,509"/>
+<area shape="rect" id="node3" href="$structma__node__vtable.html" title=" " alt="" coords="5,273,136,300"/>
+<area shape="rect" id="node4" href="$structma__node__input__bus.html" title=" " alt="" coords="160,273,312,300"/>
+<area shape="rect" id="node5" href="$structma__node__output__bus.html" title=" " alt="" coords="234,183,395,209"/>
+<area shape="rect" id="node7" href="$structma__bpf.html" title=" " alt="" coords="478,379,549,405"/>
+<area shape="rect" id="node8" href="$structma__bpf2.html" title=" " alt="" coords="478,273,557,300"/>
+<area shape="rect" id="node9" href="$structma__biquad.html" title=" " alt="" coords="470,183,565,209"/>
+<area shape="rect" id="node10" href="$unionma__biquad__coefficient.html" title=" " alt="" coords="433,5,602,32"/>
+</map>

@@ -1,0 +1,34 @@
+\hypertarget{structma__vfs__callbacks}{}\doxysection{ma\+\_\+vfs\+\_\+callbacks Struct Reference}
+\label{structma__vfs__callbacks}\index{ma\_vfs\_callbacks@{ma\_vfs\_callbacks}}
+\doxysubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{structma__vfs__callbacks_a8a8807c93561bcec30d85f4d5e5a24f9}\label{structma__vfs__callbacks_a8a8807c93561bcec30d85f4d5e5a24f9}} 
+ma\+\_\+result($\ast$ {\bfseries on\+Open} )(ma\+\_\+vfs $\ast$p\+VFS, const char $\ast$p\+File\+Path, ma\+\_\+uint32 open\+Mode, ma\+\_\+vfs\+\_\+file $\ast$p\+File)
+\item 
+\mbox{\Hypertarget{structma__vfs__callbacks_a2155c6d09892ed505e80561c8254b2cc}\label{structma__vfs__callbacks_a2155c6d09892ed505e80561c8254b2cc}} 
+ma\+\_\+result($\ast$ {\bfseries on\+OpenW} )(ma\+\_\+vfs $\ast$p\+VFS, const wchar\+\_\+t $\ast$p\+File\+Path, ma\+\_\+uint32 open\+Mode, ma\+\_\+vfs\+\_\+file $\ast$p\+File)
+\item 
+\mbox{\Hypertarget{structma__vfs__callbacks_a10423081eec257443500b35843bc00b4}\label{structma__vfs__callbacks_a10423081eec257443500b35843bc00b4}} 
+ma\+\_\+result($\ast$ {\bfseries on\+Close} )(ma\+\_\+vfs $\ast$p\+VFS, ma\+\_\+vfs\+\_\+file file)
+\item 
+\mbox{\Hypertarget{structma__vfs__callbacks_a6c94d679bc16f2f0ff2b26a5945bf5b3}\label{structma__vfs__callbacks_a6c94d679bc16f2f0ff2b26a5945bf5b3}} 
+ma\+\_\+result($\ast$ {\bfseries on\+Read} )(ma\+\_\+vfs $\ast$p\+VFS, ma\+\_\+vfs\+\_\+file file, void $\ast$p\+Dst, size\+\_\+t size\+In\+Bytes, size\+\_\+t $\ast$p\+Bytes\+Read)
+\item 
+\mbox{\Hypertarget{structma__vfs__callbacks_af1b729f703e2a5c39efaf6a7b4f975fa}\label{structma__vfs__callbacks_af1b729f703e2a5c39efaf6a7b4f975fa}} 
+ma\+\_\+result($\ast$ {\bfseries on\+Write} )(ma\+\_\+vfs $\ast$p\+VFS, ma\+\_\+vfs\+\_\+file file, const void $\ast$p\+Src, size\+\_\+t size\+In\+Bytes, size\+\_\+t $\ast$p\+Bytes\+Written)
+\item 
+\mbox{\Hypertarget{structma__vfs__callbacks_a35eaefa54cc5074f0dc9e5ed02ed9393}\label{structma__vfs__callbacks_a35eaefa54cc5074f0dc9e5ed02ed9393}} 
+ma\+\_\+result($\ast$ {\bfseries on\+Seek} )(ma\+\_\+vfs $\ast$p\+VFS, ma\+\_\+vfs\+\_\+file file, ma\+\_\+int64 offset, ma\+\_\+seek\+\_\+origin origin)
+\item 
+\mbox{\Hypertarget{structma__vfs__callbacks_a295e99c5fbb23bdf8d1d122884694468}\label{structma__vfs__callbacks_a295e99c5fbb23bdf8d1d122884694468}} 
+ma\+\_\+result($\ast$ {\bfseries on\+Tell} )(ma\+\_\+vfs $\ast$p\+VFS, ma\+\_\+vfs\+\_\+file file, ma\+\_\+int64 $\ast$p\+Cursor)
+\item 
+\mbox{\Hypertarget{structma__vfs__callbacks_a9466cbd2086cf8ee6c640694f9fd523a}\label{structma__vfs__callbacks_a9466cbd2086cf8ee6c640694f9fd523a}} 
+ma\+\_\+result($\ast$ {\bfseries on\+Info} )(ma\+\_\+vfs $\ast$p\+VFS, ma\+\_\+vfs\+\_\+file file, \mbox{\hyperlink{structma__file__info}{ma\+\_\+file\+\_\+info}} $\ast$p\+Info)
+\end{DoxyCompactItemize}
+
+
+The documentation for this struct was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+build/\+\_\+deps/raylib-\/src/src/external/miniaudio.\+h\end{DoxyCompactItemize}

@@ -1,0 +1,4 @@
+<map id="IBlock" name="IBlock">
+<area shape="rect" id="node1" title="Represents an I&#45;shaped block in the game." alt="" coords="5,80,68,107"/>
+<area shape="rect" id="node2" href="$classBlock.html" title="The Block class represents a block in the game." alt="" coords="7,5,66,32"/>
+</map>

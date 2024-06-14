@@ -1,0 +1,223 @@
+\hypertarget{classGame}{}\doxysection{Game Class Reference}
+\label{classGame}\index{Game@{Game}}
+
+
+The \mbox{\hyperlink{classGame}{Game}} class serves as the main wrapper for the program.  
+
+
+
+
+{\ttfamily \#include $<$game.\+h$>$}
+
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classGame_ad59df6562a58a614fda24622d3715b65}\label{classGame_ad59df6562a58a614fda24622d3715b65}} 
+\mbox{\hyperlink{classGame_ad59df6562a58a614fda24622d3715b65}{Game}} ()
+\begin{DoxyCompactList}\small\item\em Constructor for the \mbox{\hyperlink{classGame}{Game}} class. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classGame_ae3d112ca6e0e55150d2fdbc704474530}\label{classGame_ae3d112ca6e0e55150d2fdbc704474530}} 
+\mbox{\hyperlink{classGame_ae3d112ca6e0e55150d2fdbc704474530}{$\sim$\+Game}} ()
+\begin{DoxyCompactList}\small\item\em Desctructor for the \mbox{\hyperlink{classGame}{Game}} class. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classGame_aad2c20e2c5529244095c50c238911e30}\label{classGame_aad2c20e2c5529244095c50c238911e30}} 
+void \mbox{\hyperlink{classGame_aad2c20e2c5529244095c50c238911e30}{Draw}} ()
+\begin{DoxyCompactList}\small\item\em Draws the game elements on the screen. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classGame_a6cb82eaece4e30724f3fe4e0d4bde5fc}\label{classGame_a6cb82eaece4e30724f3fe4e0d4bde5fc}} 
+void \mbox{\hyperlink{classGame_a6cb82eaece4e30724f3fe4e0d4bde5fc}{Handle\+Input}} ()
+\begin{DoxyCompactList}\small\item\em Handles user input. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classGame_ab927b082b475ef3fe642bca3f6abc5d8}\label{classGame_ab927b082b475ef3fe642bca3f6abc5d8}} 
+void \mbox{\hyperlink{classGame_ab927b082b475ef3fe642bca3f6abc5d8}{Move\+Block\+Down}} ()
+\begin{DoxyCompactList}\small\item\em Moves the current block down by one unit. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classGrid}{Grid}} \mbox{\hyperlink{classGame_af2ce83a9020417d21cf05bfa82094cd6}{Get\+Grid}} ()
+\begin{DoxyCompactList}\small\item\em Gets the current state of the grid. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classBlock}{Block}} \mbox{\hyperlink{classGame_a66e96cbed82137a1c222773e89ecaace}{Get\+Current\+Block}} ()
+\begin{DoxyCompactList}\small\item\em Gets the current block that is falling. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classBlock}{Block}} \mbox{\hyperlink{classGame_a261667de1dad76772c4e249c7126005b}{Get\+Next\+Block}} ()
+\begin{DoxyCompactList}\small\item\em Gets the next block that will fall. \end{DoxyCompactList}\item 
+std\+::vector$<$ \mbox{\hyperlink{classBlock}{Block}} $>$ \mbox{\hyperlink{classGame_a25f7b1c0e24be7cbc288ca48e65ee3e7}{Get\+Blocks}} ()
+\begin{DoxyCompactList}\small\item\em Gets a list of all blocks. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classGame_a0cf13edef7da8ba545c026c87ff80c0d}{Set\+Gameover}} (bool \mbox{\hyperlink{classGame_a21f9857b2d4b38b97ec90b9c2ce3413d}{game\+Over}})
+\begin{DoxyCompactList}\small\item\em Sets the game over state. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{classGame_ad25b1955cdcf093a7173456a75fd41d6}{Get\+Gameover}} ()
+\begin{DoxyCompactList}\small\item\em Checks if the game is over. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classGame_a992114dd8284933a97882682a20d1038}\label{classGame_a992114dd8284933a97882682a20d1038}} 
+void \mbox{\hyperlink{classGame_a992114dd8284933a97882682a20d1038}{Move\+Block\+Left}} ()
+\begin{DoxyCompactList}\small\item\em Moves the current block to the left. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classGame_a954a4627b583069eb8c1de47bc418d9b}\label{classGame_a954a4627b583069eb8c1de47bc418d9b}} 
+void \mbox{\hyperlink{classGame_a954a4627b583069eb8c1de47bc418d9b}{Move\+Block\+Right}} ()
+\begin{DoxyCompactList}\small\item\em Moves the current block to the right. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{classGame_aa29a7f6f5c14bebe5298bf1f336c3b9d}{Block\+Fits}} ()
+\begin{DoxyCompactList}\small\item\em Checks if the current block fits in the grid. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{classGame_accb7007d6dfe37ad695f88edac551ca3}{Is\+Block\+Outside}} ()
+\begin{DoxyCompactList}\small\item\em Checks if the current block is outside the grid. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classGame_a4172ecd9094334b298f73ac13a6ef9f5}{Update\+Score}} (int lines\+Cleared, int move\+Down\+Points)
+\begin{DoxyCompactList}\small\item\em Updates the game score based on cleared lines and moved down points. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classGame_abb3fb4b64092158706e7723cf8268e6a}\label{classGame_abb3fb4b64092158706e7723cf8268e6a}} 
+void \mbox{\hyperlink{classGame_abb3fb4b64092158706e7723cf8268e6a}{Reset}} ()
+\begin{DoxyCompactList}\small\item\em Resets the game to its initial state. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+bool \mbox{\hyperlink{classGame_a21f9857b2d4b38b97ec90b9c2ce3413d}{game\+Over}}
+\item 
+int \mbox{\hyperlink{classGame_afaf9404196df9968103d5b0d0ad08139}{score}}
+\item 
+Music \mbox{\hyperlink{classGame_aaea1edb9042f804aea528ab5fe2d9b32}{music}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+The \mbox{\hyperlink{classGame}{Game}} class serves as the main wrapper for the program. 
+
+It handles the generation of elements, processing of key events, and other game logic. 
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classGame_aa29a7f6f5c14bebe5298bf1f336c3b9d}\label{classGame_aa29a7f6f5c14bebe5298bf1f336c3b9d}} 
+\index{Game@{Game}!BlockFits@{BlockFits}}
+\index{BlockFits@{BlockFits}!Game@{Game}}
+\doxysubsubsection{\texorpdfstring{BlockFits()}{BlockFits()}}
+{\footnotesize\ttfamily bool Game\+::\+Block\+Fits (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Checks if the current block fits in the grid. 
+
+\begin{DoxyReturn}{Returns}
+True if the block fits, otherwise false. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classGame_a25f7b1c0e24be7cbc288ca48e65ee3e7}\label{classGame_a25f7b1c0e24be7cbc288ca48e65ee3e7}} 
+\index{Game@{Game}!GetBlocks@{GetBlocks}}
+\index{GetBlocks@{GetBlocks}!Game@{Game}}
+\doxysubsubsection{\texorpdfstring{GetBlocks()}{GetBlocks()}}
+{\footnotesize\ttfamily std\+::vector$<$ \mbox{\hyperlink{classBlock}{Block}} $>$ Game\+::\+Get\+Blocks (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Gets a list of all blocks. 
+
+\begin{DoxyReturn}{Returns}
+A vector containing all \mbox{\hyperlink{classBlock}{Block}} objects. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classGame_a66e96cbed82137a1c222773e89ecaace}\label{classGame_a66e96cbed82137a1c222773e89ecaace}} 
+\index{Game@{Game}!GetCurrentBlock@{GetCurrentBlock}}
+\index{GetCurrentBlock@{GetCurrentBlock}!Game@{Game}}
+\doxysubsubsection{\texorpdfstring{GetCurrentBlock()}{GetCurrentBlock()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classBlock}{Block}} Game\+::\+Get\+Current\+Block (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Gets the current block that is falling. 
+
+\begin{DoxyReturn}{Returns}
+The current \mbox{\hyperlink{classBlock}{Block}} object. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classGame_ad25b1955cdcf093a7173456a75fd41d6}\label{classGame_ad25b1955cdcf093a7173456a75fd41d6}} 
+\index{Game@{Game}!GetGameover@{GetGameover}}
+\index{GetGameover@{GetGameover}!Game@{Game}}
+\doxysubsubsection{\texorpdfstring{GetGameover()}{GetGameover()}}
+{\footnotesize\ttfamily bool Game\+::\+Get\+Gameover (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Checks if the game is over. 
+
+\begin{DoxyReturn}{Returns}
+True if the game is over, otherwise false. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classGame_af2ce83a9020417d21cf05bfa82094cd6}\label{classGame_af2ce83a9020417d21cf05bfa82094cd6}} 
+\index{Game@{Game}!GetGrid@{GetGrid}}
+\index{GetGrid@{GetGrid}!Game@{Game}}
+\doxysubsubsection{\texorpdfstring{GetGrid()}{GetGrid()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classGrid}{Grid}} Game\+::\+Get\+Grid (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Gets the current state of the grid. 
+
+\begin{DoxyReturn}{Returns}
+The current \mbox{\hyperlink{classGrid}{Grid}} object. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classGame_a261667de1dad76772c4e249c7126005b}\label{classGame_a261667de1dad76772c4e249c7126005b}} 
+\index{Game@{Game}!GetNextBlock@{GetNextBlock}}
+\index{GetNextBlock@{GetNextBlock}!Game@{Game}}
+\doxysubsubsection{\texorpdfstring{GetNextBlock()}{GetNextBlock()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classBlock}{Block}} Game\+::\+Get\+Next\+Block (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Gets the next block that will fall. 
+
+\begin{DoxyReturn}{Returns}
+The next \mbox{\hyperlink{classBlock}{Block}} object. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classGame_accb7007d6dfe37ad695f88edac551ca3}\label{classGame_accb7007d6dfe37ad695f88edac551ca3}} 
+\index{Game@{Game}!IsBlockOutside@{IsBlockOutside}}
+\index{IsBlockOutside@{IsBlockOutside}!Game@{Game}}
+\doxysubsubsection{\texorpdfstring{IsBlockOutside()}{IsBlockOutside()}}
+{\footnotesize\ttfamily bool Game\+::\+Is\+Block\+Outside (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Checks if the current block is outside the grid. 
+
+\begin{DoxyReturn}{Returns}
+True if the block is outside, otherwise false. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classGame_a0cf13edef7da8ba545c026c87ff80c0d}\label{classGame_a0cf13edef7da8ba545c026c87ff80c0d}} 
+\index{Game@{Game}!SetGameover@{SetGameover}}
+\index{SetGameover@{SetGameover}!Game@{Game}}
+\doxysubsubsection{\texorpdfstring{SetGameover()}{SetGameover()}}
+{\footnotesize\ttfamily void Game\+::\+Set\+Gameover (\begin{DoxyParamCaption}\item[{bool}]{game\+Over }\end{DoxyParamCaption})}
+
+
+
+Sets the game over state. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em game\+Over} & The game over state to set. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classGame_a4172ecd9094334b298f73ac13a6ef9f5}\label{classGame_a4172ecd9094334b298f73ac13a6ef9f5}} 
+\index{Game@{Game}!UpdateScore@{UpdateScore}}
+\index{UpdateScore@{UpdateScore}!Game@{Game}}
+\doxysubsubsection{\texorpdfstring{UpdateScore()}{UpdateScore()}}
+{\footnotesize\ttfamily void Game\+::\+Update\+Score (\begin{DoxyParamCaption}\item[{int}]{lines\+Cleared,  }\item[{int}]{move\+Down\+Points }\end{DoxyParamCaption})}
+
+
+
+Updates the game score based on cleared lines and moved down points. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em lines\+Cleared} & The number of lines cleared. \\
+\hline
+{\em move\+Down\+Points} & The points gained by moving blocks down. \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{classGame_a21f9857b2d4b38b97ec90b9c2ce3413d}\label{classGame_a21f9857b2d4b38b97ec90b9c2ce3413d}} 
+\index{Game@{Game}!gameOver@{gameOver}}
+\index{gameOver@{gameOver}!Game@{Game}}
+\doxysubsubsection{\texorpdfstring{gameOver}{gameOver}}
+{\footnotesize\ttfamily bool Game\+::game\+Over}
+
+Indicates whether the game is over. \mbox{\Hypertarget{classGame_aaea1edb9042f804aea528ab5fe2d9b32}\label{classGame_aaea1edb9042f804aea528ab5fe2d9b32}} 
+\index{Game@{Game}!music@{music}}
+\index{music@{music}!Game@{Game}}
+\doxysubsubsection{\texorpdfstring{music}{music}}
+{\footnotesize\ttfamily Music Game\+::music}
+
+Handles the game music. \mbox{\Hypertarget{classGame_afaf9404196df9968103d5b0d0ad08139}\label{classGame_afaf9404196df9968103d5b0d0ad08139}} 
+\index{Game@{Game}!score@{score}}
+\index{score@{score}!Game@{Game}}
+\doxysubsubsection{\texorpdfstring{score}{score}}
+{\footnotesize\ttfamily int Game\+::score}
+
+Stores the current game score. 
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+src/\mbox{\hyperlink{game_8h}{game.\+h}}\item 
+src/game.\+cpp\end{DoxyCompactItemize}

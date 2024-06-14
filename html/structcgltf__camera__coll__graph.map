@@ -1,0 +1,8 @@
+<map id="cgltf_camera" name="cgltf_camera">
+<area shape="rect" id="node1" title=" " alt="" coords="784,96,891,123"/>
+<area shape="rect" id="node2" href="$structcgltf__camera__perspective.html" title=" " alt="" coords="456,96,647,123"/>
+<area shape="rect" id="node3" href="$structcgltf__extras.html" title=" " alt="" coords="188,52,287,79"/>
+<area shape="rect" id="node5" href="$structcgltf__camera__orthographic.html" title=" " alt="" coords="453,147,649,173"/>
+<area shape="rect" id="node4" title=" " alt="" coords="5,17,65,44"/>
+<area shape="rect" id="node6" href="$structcgltf__extension.html" title=" " alt="" coords="490,197,613,224"/>
+</map>

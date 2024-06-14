@@ -1,0 +1,6 @@
+<map id="ma_waveform" name="ma_waveform">
+<area shape="rect" id="node1" title=" " alt="" coords="131,184,247,211"/>
+<area shape="rect" id="node2" href="$structma__data__source__base.html" title=" " alt="" coords="11,95,177,121"/>
+<area shape="rect" id="node3" href="$structma__data__source__vtable.html" title=" " alt="" coords="5,5,183,32"/>
+<area shape="rect" id="node4" href="$structma__waveform__config.html" title=" " alt="" coords="202,95,365,121"/>
+</map>

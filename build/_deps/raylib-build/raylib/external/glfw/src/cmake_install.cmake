@@ -1,4 +1,4 @@
-# Install script for directory: /home/amgalan/CLionProjects/tetris/build/_deps/raylib-src/src/external/glfw/src
+# Install script for directory: /home/amgalan/Documents/university/aip/project/ForAristarh/build/_deps/raylib-src/src/external/glfw/src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

@@ -1,23 +1,34 @@
-/home/amgalan/Downloads/clion-2024.1.1/bin/cmake/linux/x64/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/home/amgalan/Downloads/clion-2024.1.1/bin/ninja/linux/x64/ninja -G Ninja -S /home/amgalan/CLionProjects/untitled -B /home/amgalan/CLionProjects/untitled/cmake-build-debug
-CMake Deprecation Warning at cmake-build-debug/_deps/raylib-src/CMakeLists.txt:1 (cmake_minimum_required):
-  Compatibility with CMake < 3.5 will be removed from a future version of
-  CMake.
+/home/amgalan/Downloads/clion-2024.1.1/bin/cmake/linux/x64/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" -S /home/amgalan/Documents/university/aip/project/ForAristarh -B /home/amgalan/Documents/university/aip/project/ForAristarh/cmake-build-debug
+CMake Deprecation Warning:
+  Support for "Extra Generators" like
 
-  Update the VERSION argument <min> value or use a ...<max> suffix to tell
-  CMake that the project does not need compatibility with older versions.
+    CodeBlocks
+
+  is deprecated and will be removed from a future version of CMake.  IDEs may
+  use the cmake-file-api(7) to view CMake-generated project build trees.
 
 
--- Testing if -Werror=pointer-arith can be used -- compiles
--- Testing if -Werror=implicit-function-declaration can be used -- compiles
--- Testing if -fno-strict-aliasing can be used -- compiles
--- Using raylib's GLFW
--- Including X11 support
--- Audio Backend: miniaudio
--- Building raylib static library
--- Generated build type: Debug
--- Compiling with the flags:
---   PLATFORM=PLATFORM_DESKTOP
---   GRAPHICS=GRAPHICS_API_OPENGL_33
--- Configuring done (0.1s)
--- Generating done (0.0s)
--- Build files have been written to: /home/amgalan/CLionProjects/untitled/cmake-build-debug
+-- The C compiler identification is GNU 12.3.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+CMake Error: The current CMakeCache.txt directory /home/amgalan/Documents/university/aip/project/ForAristarh/cmake-build-debug/_deps/raylib-subbuild/CMakeCache.txt is different than the directory /home/amgalan/CLionProjects/untitled/cmake-build-debug/_deps/raylib-subbuild where CMakeCache.txt was created. This may result in binaries being created in the wrong place. If you are not sure, reedit the CMakeCache.txt
+
+CMake Error at /home/amgalan/Downloads/clion-2024.1.1/bin/cmake/linux/x64/share/cmake-3.28/Modules/FetchContent.cmake:1667 (message):
+  CMake step for raylib failed: 1
+Call Stack (most recent call first):
+  /home/amgalan/Downloads/clion-2024.1.1/bin/cmake/linux/x64/share/cmake-3.28/Modules/FetchContent.cmake:1819:EVAL:2 (__FetchContent_directPopulate)
+  /home/amgalan/Downloads/clion-2024.1.1/bin/cmake/linux/x64/share/cmake-3.28/Modules/FetchContent.cmake:1819 (cmake_language)
+  /home/amgalan/Downloads/clion-2024.1.1/bin/cmake/linux/x64/share/cmake-3.28/Modules/FetchContent.cmake:2033 (FetchContent_Populate)
+  CMakeLists.txt:15 (FetchContent_MakeAvailable)
+
+
+-- Configuring incomplete, errors occurred!

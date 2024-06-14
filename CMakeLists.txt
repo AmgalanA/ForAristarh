@@ -33,11 +33,11 @@ add_executable(untitled
 target_link_libraries(${PROJECT_NAME} raylib)
 include_directories(doctest)
 
-add_executable(Block_GetCellPositions test.cpp src/game.cpp src/grid.cpp src/block.cpp src/position.cpp src/colors.cpp)
-target_link_libraries(Block_GetCellPositions raylib)
+add_executable(my_tests test.cpp src/game.cpp src/grid.cpp src/block.cpp src/position.cpp src/colors.cpp)
+target_link_libraries(my_tests raylib)
 
-target_include_directories(Block_GetCellPositions PRIVATE doctest)
+target_include_directories(my_tests PRIVATE doctest)
 
 enable_testing()
 
-add_test(NAME Block_GetCellPositions COMMAND my_test)
+add_test(NAME my_tests COMMAND my_tests)

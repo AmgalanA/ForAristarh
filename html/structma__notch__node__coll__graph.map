@@ -1,0 +1,11 @@
+<map id="ma_notch_node" name="ma_notch_node">
+<area shape="rect" id="node1" title=" " alt="" coords="137,393,262,420"/>
+<area shape="rect" id="node2" href="$structma__notch2.html" title=" " alt="" coords="101,289,196,316"/>
+<area shape="rect" id="node3" href="$structma__biquad.html" title=" " alt="" coords="43,184,137,211"/>
+<area shape="rect" id="node4" href="$unionma__biquad__coefficient.html" title=" " alt="" coords="5,5,175,32"/>
+<area shape="rect" id="node5" href="$structma__node__base.html" title=" " alt="" coords="278,289,398,316"/>
+<area shape="rect" id="node9" href="$structma__node__graph.html" title=" " alt="" coords="304,393,431,420"/>
+<area shape="rect" id="node6" href="$structma__node__vtable.html" title=" " alt="" coords="162,184,293,211"/>
+<area shape="rect" id="node7" href="$structma__node__input__bus.html" title=" " alt="" coords="458,184,610,211"/>
+<area shape="rect" id="node8" href="$structma__node__output__bus.html" title=" " alt="" coords="320,5,481,32"/>
+</map>

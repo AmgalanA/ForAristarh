@@ -1,4 +1,4 @@
-# Install script for directory: /home/amgalan/CLionProjects/tetris
+# Install script for directory: /home/amgalan/Documents/university/aip/project/ForAristarh
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -44,7 +44,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/amgalan/CLionProjects/tetris/build/_deps/raylib-build/cmake_install.cmake")
+  include("/home/amgalan/Documents/university/aip/project/ForAristarh/build/_deps/raylib-build/cmake_install.cmake")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
@@ -55,5 +55,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/amgalan/CLionProjects/tetris/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/amgalan/Documents/university/aip/project/ForAristarh/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

@@ -1,0 +1,7 @@
+<map id="VkDependencyInfo" name="VkDependencyInfo">
+<area shape="rect" id="node1" title=" " alt="" coords="243,184,388,211"/>
+<area shape="rect" id="node2" href="$structVkImageMemoryBarrier2.html" title=" " alt="" coords="13,95,199,121"/>
+<area shape="rect" id="node3" href="$structVkImageSubresourceRange.html" title=" " alt="" coords="5,5,207,32"/>
+<area shape="rect" id="node4" href="$structVkBufferMemoryBarrier2.html" title=" " alt="" coords="223,95,407,121"/>
+<area shape="rect" id="node5" href="$structVkMemoryBarrier2.html" title=" " alt="" coords="432,95,577,121"/>
+</map>

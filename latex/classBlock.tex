@@ -1,0 +1,119 @@
+\hypertarget{classBlock}{}\doxysection{Block Class Reference}
+\label{classBlock}\index{Block@{Block}}
+
+
+The \mbox{\hyperlink{classBlock}{Block}} class represents a block in the game.  
+
+
+
+
+{\ttfamily \#include $<$block.\+h$>$}
+
+
+
+Inheritance diagram for Block\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classBlock__inherit__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classBlock_a37658a946bf5067ad01d68d9ff086adc}\label{classBlock_a37658a946bf5067ad01d68d9ff086adc}} 
+\mbox{\hyperlink{classBlock_a37658a946bf5067ad01d68d9ff086adc}{Block}} ()
+\begin{DoxyCompactList}\small\item\em Constructor for the \mbox{\hyperlink{classBlock}{Block}} class. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classBlock_aff9a876805127586734c4f39910cf9a2}{Draw}} (int offsetX, int offsetY)
+\begin{DoxyCompactList}\small\item\em Draws the block at the specified offset. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classBlock_a8d3c1b1b61b9a5671281508e42034010}{Move}} (int rows, int columns)
+\begin{DoxyCompactList}\small\item\em Moves the block by the specified rows and columns. \end{DoxyCompactList}\item 
+std\+::vector$<$ \mbox{\hyperlink{classPosition}{Position}} $>$ \mbox{\hyperlink{classBlock_a807d1cf9876d903882bc1462af0f9c81}{Get\+Cell\+Positions}} ()
+\begin{DoxyCompactList}\small\item\em Gets the positions of the cells that make up the block. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classBlock_a1ced2170a2dad5b9110cb3c2171be6e4}\label{classBlock_a1ced2170a2dad5b9110cb3c2171be6e4}} 
+void \mbox{\hyperlink{classBlock_a1ced2170a2dad5b9110cb3c2171be6e4}{Rotate}} ()
+\begin{DoxyCompactList}\small\item\em Rotates the block. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classBlock_a1dc89cd9d5eb04508c2e38c87da6e937}\label{classBlock_a1dc89cd9d5eb04508c2e38c87da6e937}} 
+void \mbox{\hyperlink{classBlock_a1dc89cd9d5eb04508c2e38c87da6e937}{Undo\+Rotation}} ()
+\begin{DoxyCompactList}\small\item\em Undoes the last rotation of the block. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+int \mbox{\hyperlink{classBlock_a86f38c868a8dab090101db6492078071}{id}}
+\item 
+std\+::map$<$ int, std\+::vector$<$ \mbox{\hyperlink{classPosition}{Position}} $>$ $>$ \mbox{\hyperlink{classBlock_a56a842cb00e27e55f6adc4ce4a1cb649}{cells}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+The \mbox{\hyperlink{classBlock}{Block}} class represents a block in the game. 
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classBlock_aff9a876805127586734c4f39910cf9a2}\label{classBlock_aff9a876805127586734c4f39910cf9a2}} 
+\index{Block@{Block}!Draw@{Draw}}
+\index{Draw@{Draw}!Block@{Block}}
+\doxysubsubsection{\texorpdfstring{Draw()}{Draw()}}
+{\footnotesize\ttfamily void Block\+::\+Draw (\begin{DoxyParamCaption}\item[{int}]{offsetX,  }\item[{int}]{offsetY }\end{DoxyParamCaption})}
+
+
+
+Draws the block at the specified offset. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em offsetX} & The x-\/axis offset. \\
+\hline
+{\em offsetY} & The y-\/axis offset. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classBlock_a807d1cf9876d903882bc1462af0f9c81}\label{classBlock_a807d1cf9876d903882bc1462af0f9c81}} 
+\index{Block@{Block}!GetCellPositions@{GetCellPositions}}
+\index{GetCellPositions@{GetCellPositions}!Block@{Block}}
+\doxysubsubsection{\texorpdfstring{GetCellPositions()}{GetCellPositions()}}
+{\footnotesize\ttfamily std\+::vector$<$ \mbox{\hyperlink{classPosition}{Position}} $>$ Block\+::\+Get\+Cell\+Positions (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Gets the positions of the cells that make up the block. 
+
+\begin{DoxyReturn}{Returns}
+A vector of \mbox{\hyperlink{classPosition}{Position}} objects representing the cell positions. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classBlock_a8d3c1b1b61b9a5671281508e42034010}\label{classBlock_a8d3c1b1b61b9a5671281508e42034010}} 
+\index{Block@{Block}!Move@{Move}}
+\index{Move@{Move}!Block@{Block}}
+\doxysubsubsection{\texorpdfstring{Move()}{Move()}}
+{\footnotesize\ttfamily void Block\+::\+Move (\begin{DoxyParamCaption}\item[{int}]{rows,  }\item[{int}]{columns }\end{DoxyParamCaption})}
+
+
+
+Moves the block by the specified rows and columns. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em rows} & The number of rows to move. \\
+\hline
+{\em columns} & The number of columns to move. \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{classBlock_a56a842cb00e27e55f6adc4ce4a1cb649}\label{classBlock_a56a842cb00e27e55f6adc4ce4a1cb649}} 
+\index{Block@{Block}!cells@{cells}}
+\index{cells@{cells}!Block@{Block}}
+\doxysubsubsection{\texorpdfstring{cells}{cells}}
+{\footnotesize\ttfamily std\+::map$<$int, std\+::vector$<$\mbox{\hyperlink{classPosition}{Position}}$>$ $>$ Block\+::cells}
+
+The cells that make up the block, mapped by their positions. \mbox{\Hypertarget{classBlock_a86f38c868a8dab090101db6492078071}\label{classBlock_a86f38c868a8dab090101db6492078071}} 
+\index{Block@{Block}!id@{id}}
+\index{id@{id}!Block@{Block}}
+\doxysubsubsection{\texorpdfstring{id}{id}}
+{\footnotesize\ttfamily int Block\+::id}
+
+The identifier for the block. 
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+src/\mbox{\hyperlink{block_8h}{block.\+h}}\item 
+src/block.\+cpp\end{DoxyCompactItemize}

@@ -1,0 +1,13 @@
+<map id="drflac" name="drflac">
+<area shape="rect" id="node1" title=" " alt="" coords="720,132,779,159"/>
+<area shape="rect" id="node2" href="$structdrflac__bs.html" title=" " alt="" coords="401,11,481,37"/>
+<area shape="rect" id="node3" title=" " alt="" coords="53,61,113,88"/>
+<area shape="rect" id="node8" href="$structdrflac____memory__stream.html" title=" " alt="" coords="351,63,531,89"/>
+<area shape="rect" id="node4" href="$structdrflac__seekpoint.html" title=" " alt="" coords="19,123,148,149"/>
+<area shape="rect" id="node9" href="$structdrflac__metadata.html" title=" " alt="" coords="377,176,505,203"/>
+<area shape="rect" id="node5" href="$structdrflac__frame.html" title=" " alt="" coords="389,233,493,260"/>
+<area shape="rect" id="node6" href="$structdrflac__frame__header.html" title=" " alt="" coords="5,243,161,269"/>
+<area shape="rect" id="node7" href="$structdrflac__subframe.html" title=" " alt="" coords="20,293,147,320"/>
+<area shape="rect" id="node10" href="$structdrflac__streaminfo.html" title=" " alt="" coords="15,192,151,219"/>
+<area shape="rect" id="node11" href="$structdrflac__allocation__callbacks.html" title=" " alt="" coords="343,284,540,311"/>
+</map>

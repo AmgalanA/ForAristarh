@@ -1,0 +1,103 @@
+\hypertarget{classGrid}{}\doxysection{Grid Class Reference}
+\label{classGrid}\index{Grid@{Grid}}
+
+
+A class to represent and manage a grid of cells for a game or application.  
+
+
+
+
+{\ttfamily \#include $<$grid.\+h$>$}
+
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classGrid_a4ac9ff4f63552b4c61ff90fcb35ad66c}\label{classGrid_a4ac9ff4f63552b4c61ff90fcb35ad66c}} 
+\mbox{\hyperlink{classGrid_a4ac9ff4f63552b4c61ff90fcb35ad66c}{Grid}} ()
+\begin{DoxyCompactList}\small\item\em Constructor for the \mbox{\hyperlink{classGrid}{Grid}} class. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classGrid_a3e31c7f04df3d45afe2db4c19cca96fa}\label{classGrid_a3e31c7f04df3d45afe2db4c19cca96fa}} 
+void \mbox{\hyperlink{classGrid_a3e31c7f04df3d45afe2db4c19cca96fa}{Initialize}} ()
+\begin{DoxyCompactList}\small\item\em Initializes the grid with default values. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classGrid_a9894012a14efc864082b1dd73254102a}\label{classGrid_a9894012a14efc864082b1dd73254102a}} 
+void \mbox{\hyperlink{classGrid_a9894012a14efc864082b1dd73254102a}{Print}} ()
+\begin{DoxyCompactList}\small\item\em Prints the grid to the console. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classGrid_aa55979d0fc9087c65e497453e1e861bc}\label{classGrid_aa55979d0fc9087c65e497453e1e861bc}} 
+void \mbox{\hyperlink{classGrid_aa55979d0fc9087c65e497453e1e861bc}{Draw}} ()
+\begin{DoxyCompactList}\small\item\em Draws the grid on the screen using raylib functions. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{classGrid_acc1c0368b187e5428ef7f1a8d7d5d11c}{Is\+Cell\+Outside}} (int row, int column)
+\begin{DoxyCompactList}\small\item\em Checks if a given cell is outside the grid boundaries. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{classGrid_ae34cef2db7f54d0fd1a964935eb860bd}{Is\+Cell\+Empty}} (int row, int column)
+\begin{DoxyCompactList}\small\item\em Checks if a given cell is empty. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{classGrid_ac6da070fc992cecd8051b2fb712f70ea}{Clear\+Full\+Rows}} ()
+\begin{DoxyCompactList}\small\item\em Clears all full rows in the grid. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classGrid_a4319b635b069bbaee2b2c9376f02fd75}\label{classGrid_a4319b635b069bbaee2b2c9376f02fd75}} 
+int \mbox{\hyperlink{classGrid_a4319b635b069bbaee2b2c9376f02fd75}{grid}} \mbox{[}20\mbox{]}\mbox{[}10\mbox{]}
+\begin{DoxyCompactList}\small\item\em The grid represented as a 2D array. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+A class to represent and manage a grid of cells for a game or application. 
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classGrid_ac6da070fc992cecd8051b2fb712f70ea}\label{classGrid_ac6da070fc992cecd8051b2fb712f70ea}} 
+\index{Grid@{Grid}!ClearFullRows@{ClearFullRows}}
+\index{ClearFullRows@{ClearFullRows}!Grid@{Grid}}
+\doxysubsubsection{\texorpdfstring{ClearFullRows()}{ClearFullRows()}}
+{\footnotesize\ttfamily int Grid\+::\+Clear\+Full\+Rows (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Clears all full rows in the grid. 
+
+\begin{DoxyReturn}{Returns}
+The number of rows that were cleared. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classGrid_ae34cef2db7f54d0fd1a964935eb860bd}\label{classGrid_ae34cef2db7f54d0fd1a964935eb860bd}} 
+\index{Grid@{Grid}!IsCellEmpty@{IsCellEmpty}}
+\index{IsCellEmpty@{IsCellEmpty}!Grid@{Grid}}
+\doxysubsubsection{\texorpdfstring{IsCellEmpty()}{IsCellEmpty()}}
+{\footnotesize\ttfamily bool Grid\+::\+Is\+Cell\+Empty (\begin{DoxyParamCaption}\item[{int}]{row,  }\item[{int}]{column }\end{DoxyParamCaption})}
+
+
+
+Checks if a given cell is empty. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em row} & The row index of the cell. \\
+\hline
+{\em column} & The column index of the cell. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true if the cell is empty, false otherwise. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classGrid_acc1c0368b187e5428ef7f1a8d7d5d11c}\label{classGrid_acc1c0368b187e5428ef7f1a8d7d5d11c}} 
+\index{Grid@{Grid}!IsCellOutside@{IsCellOutside}}
+\index{IsCellOutside@{IsCellOutside}!Grid@{Grid}}
+\doxysubsubsection{\texorpdfstring{IsCellOutside()}{IsCellOutside()}}
+{\footnotesize\ttfamily bool Grid\+::\+Is\+Cell\+Outside (\begin{DoxyParamCaption}\item[{int}]{row,  }\item[{int}]{column }\end{DoxyParamCaption})}
+
+
+
+Checks if a given cell is outside the grid boundaries. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em row} & The row index of the cell. \\
+\hline
+{\em column} & The column index of the cell. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true if the cell is outside the grid, false otherwise. 
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+src/\mbox{\hyperlink{grid_8h}{grid.\+h}}\item 
+src/grid.\+cpp\end{DoxyCompactItemize}

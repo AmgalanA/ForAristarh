@@ -1,4 +1,4 @@
-# Install script for directory: /home/amgalan/CLionProjects/tetris/build/_deps/raylib-src
+# Install script for directory: /home/amgalan/Documents/university/aip/project/ForAristarh/build/_deps/raylib-src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -44,7 +44,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/amgalan/CLionProjects/tetris/build/_deps/raylib-build/raylib/cmake_install.cmake")
+  include("/home/amgalan/Documents/university/aip/project/ForAristarh/build/_deps/raylib-build/raylib/cmake_install.cmake")
 
 endif()
 

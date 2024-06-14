@@ -22,14 +22,14 @@ function(check_file_hash has_hash hash_is_good)
   set("${has_hash}" TRUE PARENT_SCOPE)
 
   message(STATUS "verifying file...
-       file='/home/amgalan/CLionProjects/tetris/build/_deps/raylib-subbuild/raylib-populate-prefix/src/4.5.0.tar.gz'")
+       file='/home/amgalan/Documents/university/aip/project/ForAristarh/build/_deps/raylib-subbuild/raylib-populate-prefix/src/4.5.0.tar.gz'")
 
-  file("" "/home/amgalan/CLionProjects/tetris/build/_deps/raylib-subbuild/raylib-populate-prefix/src/4.5.0.tar.gz" actual_value)
+  file("" "/home/amgalan/Documents/university/aip/project/ForAristarh/build/_deps/raylib-subbuild/raylib-populate-prefix/src/4.5.0.tar.gz" actual_value)
 
   if(NOT "${actual_value}" STREQUAL "")
     set("${hash_is_good}" FALSE PARENT_SCOPE)
     message(STATUS " hash of
-    /home/amgalan/CLionProjects/tetris/build/_deps/raylib-subbuild/raylib-populate-prefix/src/4.5.0.tar.gz
+    /home/amgalan/Documents/university/aip/project/ForAristarh/build/_deps/raylib-subbuild/raylib-populate-prefix/src/4.5.0.tar.gz
   does not match expected value
     expected: ''
       actual: '${actual_value}'")
@@ -71,32 +71,32 @@ function(sleep_before_download attempt)
   execute_process(COMMAND "${CMAKE_COMMAND}" -E sleep "${sleep_seconds}")
 endfunction()
 
-if(EXISTS "/home/amgalan/CLionProjects/tetris/build/_deps/raylib-subbuild/raylib-populate-prefix/src/4.5.0.tar.gz")
+if(EXISTS "/home/amgalan/Documents/university/aip/project/ForAristarh/build/_deps/raylib-subbuild/raylib-populate-prefix/src/4.5.0.tar.gz")
   check_file_hash(has_hash hash_is_good)
   if(has_hash)
     if(hash_is_good)
       message(STATUS "File already exists and hash match (skip download):
-  file='/home/amgalan/CLionProjects/tetris/build/_deps/raylib-subbuild/raylib-populate-prefix/src/4.5.0.tar.gz'
+  file='/home/amgalan/Documents/university/aip/project/ForAristarh/build/_deps/raylib-subbuild/raylib-populate-prefix/src/4.5.0.tar.gz'
   =''"
       )
       return()
     else()
       message(STATUS "File already exists but hash mismatch. Removing...")
-      file(REMOVE "/home/amgalan/CLionProjects/tetris/build/_deps/raylib-subbuild/raylib-populate-prefix/src/4.5.0.tar.gz")
+      file(REMOVE "/home/amgalan/Documents/university/aip/project/ForAristarh/build/_deps/raylib-subbuild/raylib-populate-prefix/src/4.5.0.tar.gz")
     endif()
   else()
     message(STATUS "File already exists but no hash specified (use URL_HASH):
-  file='/home/amgalan/CLionProjects/tetris/build/_deps/raylib-subbuild/raylib-populate-prefix/src/4.5.0.tar.gz'
+  file='/home/amgalan/Documents/university/aip/project/ForAristarh/build/_deps/raylib-subbuild/raylib-populate-prefix/src/4.5.0.tar.gz'
 Old file will be removed and new file downloaded from URL."
     )
-    file(REMOVE "/home/amgalan/CLionProjects/tetris/build/_deps/raylib-subbuild/raylib-populate-prefix/src/4.5.0.tar.gz")
+    file(REMOVE "/home/amgalan/Documents/university/aip/project/ForAristarh/build/_deps/raylib-subbuild/raylib-populate-prefix/src/4.5.0.tar.gz")
   endif()
 endif()
 
 set(retry_number 5)
 
 message(STATUS "Downloading...
-   dst='/home/amgalan/CLionProjects/tetris/build/_deps/raylib-subbuild/raylib-populate-prefix/src/4.5.0.tar.gz'
+   dst='/home/amgalan/Documents/university/aip/project/ForAristarh/build/_deps/raylib-subbuild/raylib-populate-prefix/src/4.5.0.tar.gz'
    timeout='none'
    inactivity timeout='none'"
 )
@@ -118,7 +118,7 @@ foreach(i RANGE ${retry_number})
 
       file(
         DOWNLOAD
-        "${url}" "/home/amgalan/CLionProjects/tetris/build/_deps/raylib-subbuild/raylib-populate-prefix/src/4.5.0.tar.gz"
+        "${url}" "/home/amgalan/Documents/university/aip/project/ForAristarh/build/_deps/raylib-subbuild/raylib-populate-prefix/src/4.5.0.tar.gz"
         SHOW_PROGRESS
         # no TIMEOUT
         # no INACTIVITY_TIMEOUT
@@ -135,7 +135,7 @@ foreach(i RANGE ${retry_number})
         check_file_hash(has_hash hash_is_good)
         if(has_hash AND NOT hash_is_good)
           message(STATUS "Hash mismatch, removing...")
-          file(REMOVE "/home/amgalan/CLionProjects/tetris/build/_deps/raylib-subbuild/raylib-populate-prefix/src/4.5.0.tar.gz")
+          file(REMOVE "/home/amgalan/Documents/university/aip/project/ForAristarh/build/_deps/raylib-subbuild/raylib-populate-prefix/src/4.5.0.tar.gz")
         else()
           message(STATUS "Downloading... done")
           return()

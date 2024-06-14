@@ -1,0 +1,40 @@
+\hypertarget{structma__resampling__backend__vtable}{}\doxysection{ma\+\_\+resampling\+\_\+backend\+\_\+vtable Struct Reference}
+\label{structma__resampling__backend__vtable}\index{ma\_resampling\_backend\_vtable@{ma\_resampling\_backend\_vtable}}
+\doxysubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{structma__resampling__backend__vtable_a38441e7f7fa78abdcff020cd04a0c7af}\label{structma__resampling__backend__vtable_a38441e7f7fa78abdcff020cd04a0c7af}} 
+ma\+\_\+result($\ast$ {\bfseries on\+Get\+Heap\+Size} )(void $\ast$p\+User\+Data, const \mbox{\hyperlink{structma__resampler__config}{ma\+\_\+resampler\+\_\+config}} $\ast$p\+Config, size\+\_\+t $\ast$p\+Heap\+Size\+In\+Bytes)
+\item 
+\mbox{\Hypertarget{structma__resampling__backend__vtable_ae28fb3950208469b914556601b685855}\label{structma__resampling__backend__vtable_ae28fb3950208469b914556601b685855}} 
+ma\+\_\+result($\ast$ {\bfseries on\+Init} )(void $\ast$p\+User\+Data, const \mbox{\hyperlink{structma__resampler__config}{ma\+\_\+resampler\+\_\+config}} $\ast$p\+Config, void $\ast$p\+Heap, ma\+\_\+resampling\+\_\+backend $\ast$$\ast$pp\+Backend)
+\item 
+\mbox{\Hypertarget{structma__resampling__backend__vtable_a29555e64a4ee4c3e8a732950d2192360}\label{structma__resampling__backend__vtable_a29555e64a4ee4c3e8a732950d2192360}} 
+void($\ast$ {\bfseries on\+Uninit} )(void $\ast$p\+User\+Data, ma\+\_\+resampling\+\_\+backend $\ast$p\+Backend, const \mbox{\hyperlink{structma__allocation__callbacks}{ma\+\_\+allocation\+\_\+callbacks}} $\ast$p\+Allocation\+Callbacks)
+\item 
+\mbox{\Hypertarget{structma__resampling__backend__vtable_abf062ea046dca6644e58982fb20e5dc3}\label{structma__resampling__backend__vtable_abf062ea046dca6644e58982fb20e5dc3}} 
+ma\+\_\+result($\ast$ {\bfseries on\+Process} )(void $\ast$p\+User\+Data, ma\+\_\+resampling\+\_\+backend $\ast$p\+Backend, const void $\ast$p\+Frames\+In, ma\+\_\+uint64 $\ast$p\+Frame\+Count\+In, void $\ast$p\+Frames\+Out, ma\+\_\+uint64 $\ast$p\+Frame\+Count\+Out)
+\item 
+\mbox{\Hypertarget{structma__resampling__backend__vtable_a8c1cd34495d3903f76b33019778eb5e1}\label{structma__resampling__backend__vtable_a8c1cd34495d3903f76b33019778eb5e1}} 
+ma\+\_\+result($\ast$ {\bfseries on\+Set\+Rate} )(void $\ast$p\+User\+Data, ma\+\_\+resampling\+\_\+backend $\ast$p\+Backend, ma\+\_\+uint32 sample\+Rate\+In, ma\+\_\+uint32 sample\+Rate\+Out)
+\item 
+\mbox{\Hypertarget{structma__resampling__backend__vtable_a1d54a091318c31cc80f64f131d639fbb}\label{structma__resampling__backend__vtable_a1d54a091318c31cc80f64f131d639fbb}} 
+ma\+\_\+uint64($\ast$ {\bfseries on\+Get\+Input\+Latency} )(void $\ast$p\+User\+Data, const ma\+\_\+resampling\+\_\+backend $\ast$p\+Backend)
+\item 
+\mbox{\Hypertarget{structma__resampling__backend__vtable_a74aa2e6a54ee6a0b85d871467e8e93d0}\label{structma__resampling__backend__vtable_a74aa2e6a54ee6a0b85d871467e8e93d0}} 
+ma\+\_\+uint64($\ast$ {\bfseries on\+Get\+Output\+Latency} )(void $\ast$p\+User\+Data, const ma\+\_\+resampling\+\_\+backend $\ast$p\+Backend)
+\item 
+\mbox{\Hypertarget{structma__resampling__backend__vtable_a1aea346a6667d3f797696914b2606823}\label{structma__resampling__backend__vtable_a1aea346a6667d3f797696914b2606823}} 
+ma\+\_\+result($\ast$ {\bfseries on\+Get\+Required\+Input\+Frame\+Count} )(void $\ast$p\+User\+Data, const ma\+\_\+resampling\+\_\+backend $\ast$p\+Backend, ma\+\_\+uint64 output\+Frame\+Count, ma\+\_\+uint64 $\ast$p\+Input\+Frame\+Count)
+\item 
+\mbox{\Hypertarget{structma__resampling__backend__vtable_a7af1f345b2c296eb1296da7754aa63a4}\label{structma__resampling__backend__vtable_a7af1f345b2c296eb1296da7754aa63a4}} 
+ma\+\_\+result($\ast$ {\bfseries on\+Get\+Expected\+Output\+Frame\+Count} )(void $\ast$p\+User\+Data, const ma\+\_\+resampling\+\_\+backend $\ast$p\+Backend, ma\+\_\+uint64 input\+Frame\+Count, ma\+\_\+uint64 $\ast$p\+Output\+Frame\+Count)
+\item 
+\mbox{\Hypertarget{structma__resampling__backend__vtable_ab43e5e156b1e744bc114e80a88f38cd8}\label{structma__resampling__backend__vtable_ab43e5e156b1e744bc114e80a88f38cd8}} 
+ma\+\_\+result($\ast$ {\bfseries on\+Reset} )(void $\ast$p\+User\+Data, ma\+\_\+resampling\+\_\+backend $\ast$p\+Backend)
+\end{DoxyCompactItemize}
+
+
+The documentation for this struct was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+build/\+\_\+deps/raylib-\/src/src/external/miniaudio.\+h\end{DoxyCompactItemize}

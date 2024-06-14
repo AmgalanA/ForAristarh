@@ -1,0 +1,7 @@
+<map id="ModelAnimation" name="ModelAnimation">
+<area shape="rect" id="node1" title=" " alt="" coords="18,199,147,225"/>
+<area shape="rect" id="node2" href="$structBoneInfo.html" title=" " alt="" coords="5,109,85,136"/>
+<area shape="rect" id="node3" href="$structTransform.html" title=" " alt="" coords="110,109,197,136"/>
+<area shape="rect" id="node4" href="$structVector3.html" title=" " alt="" coords="67,5,138,32"/>
+<area shape="rect" id="node5" href="$structVector4.html" title=" " alt="" coords="169,5,239,32"/>
+</map>

@@ -1,0 +1,7 @@
+<map id="ma_node_base" name="ma_node_base">
+<area shape="rect" id="node1" title=" " alt="" coords="124,201,244,228"/>
+<area shape="rect" id="node5" href="$structma__node__graph.html" title=" " alt="" coords="121,305,247,332"/>
+<area shape="rect" id="node2" href="$structma__node__vtable.html" title=" " alt="" coords="5,96,136,123"/>
+<area shape="rect" id="node3" href="$structma__node__input__bus.html" title=" " alt="" coords="301,96,453,123"/>
+<area shape="rect" id="node4" href="$structma__node__output__bus.html" title=" " alt="" coords="125,5,286,32"/>
+</map>

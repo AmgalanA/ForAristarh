@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/amgalan/CLionProjects/tetris
+CMAKE_SOURCE_DIR = /home/amgalan/Documents/university/aip/project/ForAristarh
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/amgalan/CLionProjects/tetris/build
+CMAKE_BINARY_DIR = /home/amgalan/Documents/university/aip/project/ForAristarh/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -78,7 +78,7 @@ package/fast: package
 # Special rule for the target package_source
 package_source:
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Run CPack packaging tool for source..."
-	/usr/bin/cpack --config ./CPackSourceConfig.cmake /home/amgalan/CLionProjects/tetris/build/CPackSourceConfig.cmake
+	/usr/bin/cpack --config ./CPackSourceConfig.cmake /home/amgalan/Documents/university/aip/project/ForAristarh/build/CPackSourceConfig.cmake
 .PHONY : package_source
 
 # Special rule for the target package_source
@@ -162,9 +162,9 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/amgalan/CLionProjects/tetris/build/CMakeFiles /home/amgalan/CLionProjects/tetris/build//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/amgalan/Documents/university/aip/project/ForAristarh/build/CMakeFiles /home/amgalan/Documents/university/aip/project/ForAristarh/build//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/amgalan/CLionProjects/tetris/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/amgalan/Documents/university/aip/project/ForAristarh/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -205,17 +205,17 @@ untitled/fast:
 .PHONY : untitled/fast
 
 #=============================================================================
-# Target rules for targets named my_test
+# Target rules for targets named my_tests
 
 # Build rule for target.
-my_test: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 my_test
-.PHONY : my_test
+my_tests: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 my_tests
+.PHONY : my_tests
 
 # fast build rule for target.
-my_test/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_test.dir/build.make CMakeFiles/my_test.dir/build
-.PHONY : my_test/fast
+my_tests/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_tests.dir/build.make CMakeFiles/my_tests.dir/build
+.PHONY : my_tests/fast
 
 #=============================================================================
 # Target rules for targets named raylib
@@ -262,6 +262,7 @@ src/block.o: src/block.cpp.o
 # target to build an object file
 src/block.cpp.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/src/block.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_tests.dir/build.make CMakeFiles/my_tests.dir/src/block.cpp.o
 .PHONY : src/block.cpp.o
 
 src/block.i: src/block.cpp.i
@@ -270,6 +271,7 @@ src/block.i: src/block.cpp.i
 # target to preprocess a source file
 src/block.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/src/block.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_tests.dir/build.make CMakeFiles/my_tests.dir/src/block.cpp.i
 .PHONY : src/block.cpp.i
 
 src/block.s: src/block.cpp.s
@@ -278,6 +280,7 @@ src/block.s: src/block.cpp.s
 # target to generate assembly for a file
 src/block.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/src/block.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_tests.dir/build.make CMakeFiles/my_tests.dir/src/block.cpp.s
 .PHONY : src/block.cpp.s
 
 src/blocks.o: src/blocks.cpp.o
@@ -310,6 +313,7 @@ src/colors.o: src/colors.cpp.o
 # target to build an object file
 src/colors.cpp.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/src/colors.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_tests.dir/build.make CMakeFiles/my_tests.dir/src/colors.cpp.o
 .PHONY : src/colors.cpp.o
 
 src/colors.i: src/colors.cpp.i
@@ -318,6 +322,7 @@ src/colors.i: src/colors.cpp.i
 # target to preprocess a source file
 src/colors.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/src/colors.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_tests.dir/build.make CMakeFiles/my_tests.dir/src/colors.cpp.i
 .PHONY : src/colors.cpp.i
 
 src/colors.s: src/colors.cpp.s
@@ -326,6 +331,7 @@ src/colors.s: src/colors.cpp.s
 # target to generate assembly for a file
 src/colors.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/src/colors.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_tests.dir/build.make CMakeFiles/my_tests.dir/src/colors.cpp.s
 .PHONY : src/colors.cpp.s
 
 src/game.o: src/game.cpp.o
@@ -334,6 +340,7 @@ src/game.o: src/game.cpp.o
 # target to build an object file
 src/game.cpp.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/src/game.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_tests.dir/build.make CMakeFiles/my_tests.dir/src/game.cpp.o
 .PHONY : src/game.cpp.o
 
 src/game.i: src/game.cpp.i
@@ -342,6 +349,7 @@ src/game.i: src/game.cpp.i
 # target to preprocess a source file
 src/game.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/src/game.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_tests.dir/build.make CMakeFiles/my_tests.dir/src/game.cpp.i
 .PHONY : src/game.cpp.i
 
 src/game.s: src/game.cpp.s
@@ -350,6 +358,7 @@ src/game.s: src/game.cpp.s
 # target to generate assembly for a file
 src/game.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/src/game.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_tests.dir/build.make CMakeFiles/my_tests.dir/src/game.cpp.s
 .PHONY : src/game.cpp.s
 
 src/grid.o: src/grid.cpp.o
@@ -358,6 +367,7 @@ src/grid.o: src/grid.cpp.o
 # target to build an object file
 src/grid.cpp.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/src/grid.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_tests.dir/build.make CMakeFiles/my_tests.dir/src/grid.cpp.o
 .PHONY : src/grid.cpp.o
 
 src/grid.i: src/grid.cpp.i
@@ -366,6 +376,7 @@ src/grid.i: src/grid.cpp.i
 # target to preprocess a source file
 src/grid.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/src/grid.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_tests.dir/build.make CMakeFiles/my_tests.dir/src/grid.cpp.i
 .PHONY : src/grid.cpp.i
 
 src/grid.s: src/grid.cpp.s
@@ -374,6 +385,7 @@ src/grid.s: src/grid.cpp.s
 # target to generate assembly for a file
 src/grid.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/src/grid.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_tests.dir/build.make CMakeFiles/my_tests.dir/src/grid.cpp.s
 .PHONY : src/grid.cpp.s
 
 src/main.o: src/main.cpp.o
@@ -406,6 +418,7 @@ src/position.o: src/position.cpp.o
 # target to build an object file
 src/position.cpp.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/src/position.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_tests.dir/build.make CMakeFiles/my_tests.dir/src/position.cpp.o
 .PHONY : src/position.cpp.o
 
 src/position.i: src/position.cpp.i
@@ -414,6 +427,7 @@ src/position.i: src/position.cpp.i
 # target to preprocess a source file
 src/position.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/src/position.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_tests.dir/build.make CMakeFiles/my_tests.dir/src/position.cpp.i
 .PHONY : src/position.cpp.i
 
 src/position.s: src/position.cpp.s
@@ -422,6 +436,7 @@ src/position.s: src/position.cpp.s
 # target to generate assembly for a file
 src/position.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/src/position.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_tests.dir/build.make CMakeFiles/my_tests.dir/src/position.cpp.s
 .PHONY : src/position.cpp.s
 
 test.o: test.cpp.o
@@ -429,7 +444,7 @@ test.o: test.cpp.o
 
 # target to build an object file
 test.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_test.dir/build.make CMakeFiles/my_test.dir/test.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_tests.dir/build.make CMakeFiles/my_tests.dir/test.cpp.o
 .PHONY : test.cpp.o
 
 test.i: test.cpp.i
@@ -437,7 +452,7 @@ test.i: test.cpp.i
 
 # target to preprocess a source file
 test.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_test.dir/build.make CMakeFiles/my_test.dir/test.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_tests.dir/build.make CMakeFiles/my_tests.dir/test.cpp.i
 .PHONY : test.cpp.i
 
 test.s: test.cpp.s
@@ -445,7 +460,7 @@ test.s: test.cpp.s
 
 # target to generate assembly for a file
 test.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_test.dir/build.make CMakeFiles/my_test.dir/test.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_tests.dir/build.make CMakeFiles/my_tests.dir/test.cpp.s
 .PHONY : test.cpp.s
 
 # Help Target
@@ -465,7 +480,7 @@ help:
 	@echo "... test"
 	@echo "... update_mappings"
 	@echo "... glfw"
-	@echo "... my_test"
+	@echo "... my_tests"
 	@echo "... raylib"
 	@echo "... untitled"
 	@echo "... src/block.o"

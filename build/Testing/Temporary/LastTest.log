@@ -1,19 +1,112 @@
-Start testing: Jun 09 16:47 MSK
+Start testing: Jun 14 10:28 MSK
 ----------------------------------------------------------
-Unable to find executable: COMMAND
-1/1 Testing: my_test
-1/1 Test: my_test
-Command: "" "my_test"
-Directory: /home/amgalan/CLionProjects/untitled/build
-"my_test" start time: 
+1/1 Testing: my_tests
+1/1 Test: my_tests
+Command: "/home/amgalan/Documents/university/aip/project/ForAristarh/build/my_tests"
+Directory: /home/amgalan/Documents/university/aip/project/ForAristarh/build
+"my_tests" start time: Jun 14 10:28 MSK
 Output:
 ----------------------------------------------------------
+[doctest] doctest version is "2.4.11"
+[doctest] run with "--help" for options
+INFO: AUDIO: Device initialized successfully
+INFO:     > Backend:       miniaudio / PulseAudio
+INFO:     > Format:        32-bit IEEE Floating Point -> 16-bit Signed Integer
+INFO:     > Channels:      2 -> 2
+INFO:     > Sample rate:   44100 -> 44100
+INFO:     > Periods size:  3306
+WARNING: FILEIO: [sounds/music.mp3] Music file could not be opened
+WARNING: FILEIO: [sounds/rotate.mp3] Failed to open file
+WARNING: FILEIO: [sounds/clear.mp3] Failed to open file
+INFO: STREAM: Unloaded audio stream data from RAM
+INFO: AUDIO: Device closed successfully
+INFO: AUDIO: Device initialized successfully
+INFO:     > Backend:       miniaudio / PulseAudio
+INFO:     > Format:        32-bit IEEE Floating Point -> 16-bit Signed Integer
+INFO:     > Channels:      2 -> 2
+INFO:     > Sample rate:   44100 -> 44100
+INFO:     > Periods size:  3306
+WARNING: FILEIO: [sounds/music.mp3] Music file could not be opened
+WARNING: FILEIO: [sounds/rotate.mp3] Failed to open file
+WARNING: FILEIO: [sounds/clear.mp3] Failed to open file
+INFO: STREAM: Unloaded audio stream data from RAM
+INFO: AUDIO: Device closed successfully
+INFO: AUDIO: Device initialized successfully
+INFO:     > Backend:       miniaudio / PulseAudio
+INFO:     > Format:        32-bit IEEE Floating Point -> 16-bit Signed Integer
+INFO:     > Channels:      2 -> 2
+INFO:     > Sample rate:   44100 -> 44100
+INFO:     > Periods size:  3306
+WARNING: FILEIO: [sounds/music.mp3] Music file could not be opened
+WARNING: FILEIO: [sounds/rotate.mp3] Failed to open file
+WARNING: FILEIO: [sounds/clear.mp3] Failed to open file
+INFO: STREAM: Unloaded audio stream data from RAM
+INFO: AUDIO: Device closed successfully
+INFO: AUDIO: Device initialized successfully
+INFO:     > Backend:       miniaudio / PulseAudio
+INFO:     > Format:        32-bit IEEE Floating Point -> 16-bit Signed Integer
+INFO:     > Channels:      2 -> 2
+INFO:     > Sample rate:   44100 -> 44100
+INFO:     > Periods size:  3306
+WARNING: FILEIO: [sounds/music.mp3] Music file could not be opened
+WARNING: FILEIO: [sounds/rotate.mp3] Failed to open file
+WARNING: FILEIO: [sounds/clear.mp3] Failed to open file
+INFO: STREAM: Unloaded audio stream data from RAM
+INFO: AUDIO: Device closed successfully
+INFO: AUDIO: Device initialized successfully
+INFO:     > Backend:       miniaudio / PulseAudio
+INFO:     > Format:        32-bit IEEE Floating Point -> 16-bit Signed Integer
+INFO:     > Channels:      2 -> 2
+INFO:     > Sample rate:   44100 -> 44100
+INFO:     > Periods size:  3306
+WARNING: FILEIO: [sounds/music.mp3] Music file could not be opened
+WARNING: FILEIO: [sounds/rotate.mp3] Failed to open file
+WARNING: FILEIO: [sounds/clear.mp3] Failed to open file
+INFO: STREAM: Unloaded audio stream data from RAM
+INFO: AUDIO: Device closed successfully
+INFO: AUDIO: Device initialized successfully
+INFO:     > Backend:       miniaudio / PulseAudio
+INFO:     > Format:        32-bit IEEE Floating Point -> 16-bit Signed Integer
+INFO:     > Channels:      2 -> 2
+INFO:     > Sample rate:   44100 -> 44100
+INFO:     > Periods size:  3306
+WARNING: FILEIO: [sounds/music.mp3] Music file could not be opened
+WARNING: FILEIO: [sounds/rotate.mp3] Failed to open file
+WARNING: FILEIO: [sounds/clear.mp3] Failed to open file
+INFO: STREAM: Unloaded audio stream data from RAM
+INFO: AUDIO: Device closed successfully
+INFO: AUDIO: Device initialized successfully
+INFO:     > Backend:       miniaudio / PulseAudio
+INFO:     > Format:        32-bit IEEE Floating Point -> 16-bit Signed Integer
+INFO:     > Channels:      2 -> 2
+INFO:     > Sample rate:   44100 -> 44100
+INFO:     > Periods size:  3306
+WARNING: FILEIO: [sounds/music.mp3] Music file could not be opened
+WARNING: FILEIO: [sounds/rotate.mp3] Failed to open file
+WARNING: FILEIO: [sounds/clear.mp3] Failed to open file
+INFO: STREAM: Unloaded audio stream data from RAM
+INFO: AUDIO: Device closed successfully
+INFO: AUDIO: Device initialized successfully
+INFO:     > Backend:       miniaudio / PulseAudio
+INFO:     > Format:        32-bit IEEE Floating Point -> 16-bit Signed Integer
+INFO:     > Channels:      2 -> 2
+INFO:     > Sample rate:   44100 -> 44100
+INFO:     > Periods size:  3306
+WARNING: FILEIO: [sounds/music.mp3] Music file could not be opened
+WARNING: FILEIO: [sounds/rotate.mp3] Failed to open file
+WARNING: FILEIO: [sounds/clear.mp3] Failed to open file
+INFO: STREAM: Unloaded audio stream data from RAM
+INFO: AUDIO: Device closed successfully
+===============================================================================
+[doctest] test cases:   8 |   8 passed | 0 failed | 0 skipped
+[doctest] assertions: 450 | 450 passed | 0 failed |
+[doctest] Status: SUCCESS!
 <end of output>
-Test time =   0.00 sec
+Test time =   0.02 sec
 ----------------------------------------------------------
 Test Passed.
-"my_test" end time: Jun 09 16:47 MSK
-"my_test" time elapsed: 00:00:00
+"my_tests" end time: Jun 14 10:28 MSK
+"my_tests" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-End testing: Jun 09 16:47 MSK
+End testing: Jun 14 10:28 MSK

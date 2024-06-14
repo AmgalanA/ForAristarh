@@ -1,0 +1,12 @@
+<map id="cgltf_mesh_gpu_instancing" name="cgltf_mesh_gpu_instancing">
+<area shape="rect" id="node1" title=" " alt="" coords="105,963,303,989"/>
+<area shape="rect" id="node2" href="$structcgltf__attribute.html" title=" " alt="" coords="343,873,457,900"/>
+<area shape="rect" id="node3" href="$structcgltf__accessor.html" title=" " alt="" coords="444,784,559,811"/>
+<area shape="rect" id="node4" href="$structcgltf__buffer__view.html" title=" " alt="" coords="263,591,398,617"/>
+<area shape="rect" id="node10" href="$structcgltf__accessor__sparse.html" title=" " alt="" coords="553,695,719,721"/>
+<area shape="rect" id="node5" href="$structcgltf__buffer.html" title=" " alt="" coords="437,261,533,288"/>
+<area shape="rect" id="node9" href="$structcgltf__meshopt__compression.html" title=" " alt="" coords="383,485,588,512"/>
+<area shape="rect" id="node6" href="$structcgltf__extras.html" title=" " alt="" coords="745,111,844,137"/>
+<area shape="rect" id="node7" title=" " alt="" coords="657,5,717,32"/>
+<area shape="rect" id="node8" href="$structcgltf__extension.html" title=" " alt="" coords="253,111,376,137"/>
+</map>

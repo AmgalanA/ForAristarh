@@ -1,0 +1,11 @@
+<map id="ma_resampler" name="ma_resampler">
+<area shape="rect" id="node1" title=" " alt="" coords="110,581,226,608"/>
+<area shape="rect" id="node2" href="$structma__resampling__backend__vtable.html" title=" " alt="" coords="5,477,189,519"/>
+<area shape="rect" id="node3" href="$structma__linear__resampler.html" title=" " alt="" coords="213,485,373,511"/>
+<area shape="rect" id="node4" href="$structma__lpf.html" title=" " alt="" coords="171,381,237,407"/>
+<area shape="rect" id="node5" href="$structma__lpf1.html" title=" " alt="" coords="155,233,229,260"/>
+<area shape="rect" id="node6" href="$unionma__biquad__coefficient.html" title=" " alt="" coords="141,5,310,32"/>
+<area shape="rect" id="node8" href="$structma__biquad.html" title=" " alt="" coords="238,183,333,209"/>
+<area shape="rect" id="node7" href="$structma__lpf2.html" title=" " alt="" coords="251,284,325,311"/>
+<area shape="rect" id="node9" href="$structma__linear__resampler__config.html" title=" " alt="" coords="261,373,421,415"/>
+</map>

@@ -1,11 +1,11 @@
 CMakeFiles/untitled.dir/src/main.cpp.o: \
- /home/amgalan/CLionProjects/tetris/src/main.cpp \
+ /home/amgalan/Documents/university/aip/project/ForAristarh/src/main.cpp \
  /usr/include/stdc-predef.h \
- /home/amgalan/CLionProjects/tetris/build/_deps/raylib-src/src/raylib.h \
+ /home/amgalan/Documents/university/aip/project/ForAristarh/build/_deps/raylib-src/src/raylib.h \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdarg.h \
- /home/amgalan/CLionProjects/tetris/src/game.h \
- /home/amgalan/CLionProjects/tetris/src/grid.h /usr/include/c++/11/vector \
- /usr/include/c++/11/bits/stl_algobase.h \
+ /home/amgalan/Documents/university/aip/project/ForAristarh/src/game.h \
+ /home/amgalan/Documents/university/aip/project/ForAristarh/src/grid.h \
+ /usr/include/c++/11/vector /usr/include/c++/11/bits/stl_algobase.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
  /usr/include/features.h /usr/include/features-time64.h \
@@ -47,9 +47,9 @@ CMakeFiles/untitled.dir/src/main.cpp.o: \
  /usr/include/c++/11/bits/hash_bytes.h \
  /usr/include/c++/11/bits/range_access.h \
  /usr/include/c++/11/bits/vector.tcc \
- /home/amgalan/CLionProjects/tetris/src/blocks.cpp \
- /home/amgalan/CLionProjects/tetris/src/block.h /usr/include/c++/11/map \
- /usr/include/c++/11/bits/stl_tree.h \
+ /home/amgalan/Documents/university/aip/project/ForAristarh/src/blocks.cpp \
+ /home/amgalan/Documents/university/aip/project/ForAristarh/src/block.h \
+ /usr/include/c++/11/map /usr/include/c++/11/bits/stl_tree.h \
  /usr/include/c++/11/bits/stl_function.h \
  /usr/include/c++/11/backward/binders.h \
  /usr/include/c++/11/ext/aligned_buffer.h \
@@ -60,8 +60,8 @@ CMakeFiles/untitled.dir/src/main.cpp.o: \
  /usr/include/c++/11/bits/invoke.h \
  /usr/include/c++/11/bits/stl_multimap.h \
  /usr/include/c++/11/bits/erase_if.h \
- /home/amgalan/CLionProjects/tetris/src/position.h \
- /home/amgalan/CLionProjects/tetris/src/colors.h \
+ /home/amgalan/Documents/university/aip/project/ForAristarh/src/position.h \
+ /home/amgalan/Documents/university/aip/project/ForAristarh/src/colors.h \
  /usr/include/c++/11/iostream /usr/include/c++/11/ostream \
  /usr/include/c++/11/ios /usr/include/c++/11/iosfwd \
  /usr/include/c++/11/bits/stringfwd.h /usr/include/c++/11/bits/postypes.h \

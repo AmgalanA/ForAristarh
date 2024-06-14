@@ -1,0 +1,7 @@
+<map id="VkCopyBufferToImageInfo2" name="VkCopyBufferToImageInfo2">
+<area shape="rect" id="node1" title=" " alt="" coords="75,184,274,211"/>
+<area shape="rect" id="node2" href="$structVkBufferImageCopy2.html" title=" " alt="" coords="95,95,255,121"/>
+<area shape="rect" id="node3" href="$structVkOffset3D.html" title=" " alt="" coords="5,5,101,32"/>
+<area shape="rect" id="node4" href="$structVkExtent3D.html" title=" " alt="" coords="125,5,224,32"/>
+<area shape="rect" id="node5" href="$structVkImageSubresourceLayers.html" title=" " alt="" coords="248,5,451,32"/>
+</map>

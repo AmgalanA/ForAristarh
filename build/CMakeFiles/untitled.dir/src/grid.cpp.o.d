@@ -1,6 +1,7 @@
 CMakeFiles/untitled.dir/src/grid.cpp.o: \
- /home/amgalan/CLionProjects/tetris/src/grid.cpp \
- /usr/include/stdc-predef.h /home/amgalan/CLionProjects/tetris/src/grid.h \
+ /home/amgalan/Documents/university/aip/project/ForAristarh/src/grid.cpp \
+ /usr/include/stdc-predef.h \
+ /home/amgalan/Documents/university/aip/project/ForAristarh/src/grid.h \
  /usr/include/c++/11/vector /usr/include/c++/11/bits/stl_algobase.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
@@ -43,7 +44,7 @@ CMakeFiles/untitled.dir/src/grid.cpp.o: \
  /usr/include/c++/11/bits/hash_bytes.h \
  /usr/include/c++/11/bits/range_access.h \
  /usr/include/c++/11/bits/vector.tcc \
- /home/amgalan/CLionProjects/tetris/build/_deps/raylib-src/src/raylib.h \
+ /home/amgalan/Documents/university/aip/project/ForAristarh/build/_deps/raylib-src/src/raylib.h \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdarg.h \
  /usr/include/c++/11/iostream /usr/include/c++/11/ostream \
  /usr/include/c++/11/ios /usr/include/c++/11/iosfwd \
@@ -151,4 +152,4 @@ CMakeFiles/untitled.dir/src/grid.cpp.o: \
  /usr/include/c++/11/bits/basic_ios.tcc \
  /usr/include/c++/11/bits/ostream.tcc /usr/include/c++/11/istream \
  /usr/include/c++/11/bits/istream.tcc \
- /home/amgalan/CLionProjects/tetris/src/colors.h
+ /home/amgalan/Documents/university/aip/project/ForAristarh/src/colors.h

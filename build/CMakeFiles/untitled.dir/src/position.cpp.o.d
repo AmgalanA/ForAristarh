@@ -1,4 +1,4 @@
 CMakeFiles/untitled.dir/src/position.cpp.o: \
- /home/amgalan/CLionProjects/tetris/src/position.cpp \
+ /home/amgalan/Documents/university/aip/project/ForAristarh/src/position.cpp \
  /usr/include/stdc-predef.h \
- /home/amgalan/CLionProjects/tetris/src/position.h
+ /home/amgalan/Documents/university/aip/project/ForAristarh/src/position.h

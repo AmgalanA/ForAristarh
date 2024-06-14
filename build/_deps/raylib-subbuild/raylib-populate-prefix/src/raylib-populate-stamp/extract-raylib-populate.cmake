@@ -5,8 +5,8 @@ cmake_minimum_required(VERSION 3.5)
 
 # Make file names absolute:
 #
-get_filename_component(filename "/home/amgalan/CLionProjects/tetris/build/_deps/raylib-subbuild/raylib-populate-prefix/src/4.5.0.tar.gz" ABSOLUTE)
-get_filename_component(directory "/home/amgalan/CLionProjects/tetris/build/_deps/raylib-src" ABSOLUTE)
+get_filename_component(filename "/home/amgalan/Documents/university/aip/project/ForAristarh/build/_deps/raylib-subbuild/raylib-populate-prefix/src/4.5.0.tar.gz" ABSOLUTE)
+get_filename_component(directory "/home/amgalan/Documents/university/aip/project/ForAristarh/build/_deps/raylib-src" ABSOLUTE)
 
 message(STATUS "extracting...
      src='${filename}'

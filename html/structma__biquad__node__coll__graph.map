@@ -1,0 +1,10 @@
+<map id="ma_biquad_node" name="ma_biquad_node">
+<area shape="rect" id="node1" title=" " alt="" coords="807,119,940,145"/>
+<area shape="rect" id="node2" href="$structma__biquad.html" title=" " alt="" coords="566,95,661,121"/>
+<area shape="rect" id="node3" href="$unionma__biquad__coefficient.html" title=" " alt="" coords="252,93,421,120"/>
+<area shape="rect" id="node4" href="$structma__node__base.html" title=" " alt="" coords="553,205,673,232"/>
+<area shape="rect" id="node8" href="$structma__node__graph.html" title=" " alt="" coords="810,225,937,252"/>
+<area shape="rect" id="node5" href="$structma__node__vtable.html" title=" " alt="" coords="271,144,402,171"/>
+<area shape="rect" id="node6" href="$structma__node__input__bus.html" title=" " alt="" coords="261,272,413,299"/>
+<area shape="rect" id="node7" href="$structma__node__output__bus.html" title=" " alt="" coords="5,241,167,268"/>
+</map>

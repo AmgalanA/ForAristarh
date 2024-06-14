@@ -1,8 +1,9 @@
 CMakeFiles/untitled.dir/src/game.cpp.o: \
- /home/amgalan/CLionProjects/tetris/src/game.cpp \
- /usr/include/stdc-predef.h /home/amgalan/CLionProjects/tetris/src/game.h \
- /home/amgalan/CLionProjects/tetris/src/grid.h /usr/include/c++/11/vector \
- /usr/include/c++/11/bits/stl_algobase.h \
+ /home/amgalan/Documents/university/aip/project/ForAristarh/src/game.cpp \
+ /usr/include/stdc-predef.h \
+ /home/amgalan/Documents/university/aip/project/ForAristarh/src/game.h \
+ /home/amgalan/Documents/university/aip/project/ForAristarh/src/grid.h \
+ /usr/include/c++/11/vector /usr/include/c++/11/bits/stl_algobase.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
  /usr/include/features.h /usr/include/features-time64.h \
@@ -44,11 +45,11 @@ CMakeFiles/untitled.dir/src/game.cpp.o: \
  /usr/include/c++/11/bits/hash_bytes.h \
  /usr/include/c++/11/bits/range_access.h \
  /usr/include/c++/11/bits/vector.tcc \
- /home/amgalan/CLionProjects/tetris/build/_deps/raylib-src/src/raylib.h \
+ /home/amgalan/Documents/university/aip/project/ForAristarh/build/_deps/raylib-src/src/raylib.h \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdarg.h \
- /home/amgalan/CLionProjects/tetris/src/blocks.cpp \
- /home/amgalan/CLionProjects/tetris/src/block.h /usr/include/c++/11/map \
- /usr/include/c++/11/bits/stl_tree.h \
+ /home/amgalan/Documents/university/aip/project/ForAristarh/src/blocks.cpp \
+ /home/amgalan/Documents/university/aip/project/ForAristarh/src/block.h \
+ /usr/include/c++/11/map /usr/include/c++/11/bits/stl_tree.h \
  /usr/include/c++/11/bits/stl_function.h \
  /usr/include/c++/11/backward/binders.h \
  /usr/include/c++/11/ext/aligned_buffer.h \
@@ -59,8 +60,8 @@ CMakeFiles/untitled.dir/src/game.cpp.o: \
  /usr/include/c++/11/bits/invoke.h \
  /usr/include/c++/11/bits/stl_multimap.h \
  /usr/include/c++/11/bits/erase_if.h \
- /home/amgalan/CLionProjects/tetris/src/position.h \
- /home/amgalan/CLionProjects/tetris/src/colors.h \
+ /home/amgalan/Documents/university/aip/project/ForAristarh/src/position.h \
+ /home/amgalan/Documents/university/aip/project/ForAristarh/src/colors.h \
  /usr/include/c++/11/random /usr/include/c++/11/cmath /usr/include/math.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
  /usr/include/x86_64-linux-gnu/bits/types.h \
@@ -175,4 +176,25 @@ CMakeFiles/untitled.dir/src/game.cpp.o: \
  /usr/include/c++/11/bits/random.tcc /usr/include/c++/11/numeric \
  /usr/include/c++/11/bits/stl_numeric.h /usr/include/c++/11/bit \
  /usr/include/c++/11/pstl/glue_numeric_defs.h \
- /usr/include/c++/11/pstl/execution_defs.h
+ /usr/include/c++/11/pstl/execution_defs.h /usr/include/c++/11/iostream \
+ /usr/include/c++/11/ostream /usr/include/c++/11/ios \
+ /usr/include/c++/11/exception /usr/include/c++/11/bits/exception_ptr.h \
+ /usr/include/c++/11/bits/cxxabi_init_exception.h \
+ /usr/include/c++/11/typeinfo /usr/include/c++/11/bits/nested_exception.h \
+ /usr/include/c++/11/bits/ios_base.h \
+ /usr/include/c++/11/bits/locale_classes.h \
+ /usr/include/c++/11/bits/locale_classes.tcc \
+ /usr/include/c++/11/system_error \
+ /usr/include/x86_64-linux-gnu/c++/11/bits/error_constants.h \
+ /usr/include/c++/11/stdexcept /usr/include/c++/11/streambuf \
+ /usr/include/c++/11/bits/streambuf.tcc \
+ /usr/include/c++/11/bits/basic_ios.h \
+ /usr/include/c++/11/bits/locale_facets.h /usr/include/c++/11/cwctype \
+ /usr/include/wctype.h /usr/include/x86_64-linux-gnu/bits/wctype-wchar.h \
+ /usr/include/x86_64-linux-gnu/c++/11/bits/ctype_base.h \
+ /usr/include/c++/11/bits/streambuf_iterator.h \
+ /usr/include/x86_64-linux-gnu/c++/11/bits/ctype_inline.h \
+ /usr/include/c++/11/bits/locale_facets.tcc \
+ /usr/include/c++/11/bits/basic_ios.tcc \
+ /usr/include/c++/11/bits/ostream.tcc /usr/include/c++/11/istream \
+ /usr/include/c++/11/bits/istream.tcc

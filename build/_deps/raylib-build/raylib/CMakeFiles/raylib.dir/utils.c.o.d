@@ -1,11 +1,11 @@
 _deps/raylib-build/raylib/CMakeFiles/raylib.dir/utils.c.o: \
- /home/amgalan/CLionProjects/tetris/build/_deps/raylib-src/src/utils.c \
+ /home/amgalan/Documents/university/aip/project/ForAristarh/build/_deps/raylib-src/src/utils.c \
  /usr/include/stdc-predef.h \
- /home/amgalan/CLionProjects/tetris/build/_deps/raylib-src/src/raylib.h \
+ /home/amgalan/Documents/university/aip/project/ForAristarh/build/_deps/raylib-src/src/raylib.h \
  /usr/lib/gcc/x86_64-linux-gnu/12/include/stdarg.h \
  /usr/lib/gcc/x86_64-linux-gnu/12/include/stdbool.h \
- /home/amgalan/CLionProjects/tetris/build/_deps/raylib-src/src/config.h \
- /home/amgalan/CLionProjects/tetris/build/_deps/raylib-src/src/utils.h \
+ /home/amgalan/Documents/university/aip/project/ForAristarh/build/_deps/raylib-src/src/config.h \
+ /home/amgalan/Documents/university/aip/project/ForAristarh/build/_deps/raylib-src/src/utils.h \
  /usr/include/stdlib.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
  /usr/include/features.h /usr/include/features-time64.h \

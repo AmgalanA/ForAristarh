@@ -1,0 +1,10 @@
+<map id="ma_context" name="ma_context">
+<area shape="rect" id="node1" title=" " alt="" coords="333,199,432,225"/>
+<area shape="rect" id="node2" href="$structma__device__info.html" title=" " alt="" coords="13,95,139,121"/>
+<area shape="rect" id="node3" href="$unionma__device__id.html" title=" " alt="" coords="5,5,117,32"/>
+<area shape="rect" id="node4" href="$structma__allocation__callbacks.html" title=" " alt="" coords="142,5,325,32"/>
+<area shape="rect" id="node5" href="$structma__log.html" title=" " alt="" coords="347,95,418,121"/>
+<area shape="rect" id="node6" href="$structma__log__callback.html" title=" " alt="" coords="349,5,480,32"/>
+<area shape="rect" id="node7" title=" " alt="" coords="442,95,502,121"/>
+<area shape="rect" id="node8" href="$structma__backend__callbacks.html" title=" " alt="" coords="526,95,698,121"/>
+</map>

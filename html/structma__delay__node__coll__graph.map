@@ -1,0 +1,10 @@
+<map id="ma_delay_node" name="ma_delay_node">
+<area shape="rect" id="node1" title=" " alt="" coords="133,305,258,332"/>
+<area shape="rect" id="node2" href="$structma__delay.html" title=" " alt="" coords="52,201,139,228"/>
+<area shape="rect" id="node3" href="$structma__delay__config.html" title=" " alt="" coords="5,96,137,123"/>
+<area shape="rect" id="node4" href="$structma__node__base.html" title=" " alt="" coords="277,201,397,228"/>
+<area shape="rect" id="node8" href="$structma__node__graph.html" title=" " alt="" coords="303,305,429,332"/>
+<area shape="rect" id="node5" href="$structma__node__vtable.html" title=" " alt="" coords="162,96,293,123"/>
+<area shape="rect" id="node6" href="$structma__node__input__bus.html" title=" " alt="" coords="458,96,610,123"/>
+<area shape="rect" id="node7" href="$structma__node__output__bus.html" title=" " alt="" coords="281,5,443,32"/>
+</map>

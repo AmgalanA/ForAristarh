@@ -1,13 +1,13 @@
 _deps/raylib-build/raylib/CMakeFiles/raylib.dir/rcore.c.o: \
- /home/amgalan/CLionProjects/tetris/build/_deps/raylib-src/src/rcore.c \
+ /home/amgalan/Documents/university/aip/project/ForAristarh/build/_deps/raylib-src/src/rcore.c \
  /usr/include/stdc-predef.h \
- /home/amgalan/CLionProjects/tetris/build/_deps/raylib-src/src/raylib.h \
+ /home/amgalan/Documents/university/aip/project/ForAristarh/build/_deps/raylib-src/src/raylib.h \
  /usr/lib/gcc/x86_64-linux-gnu/12/include/stdarg.h \
  /usr/lib/gcc/x86_64-linux-gnu/12/include/stdbool.h \
- /home/amgalan/CLionProjects/tetris/build/_deps/raylib-src/src/config.h \
- /home/amgalan/CLionProjects/tetris/build/_deps/raylib-src/src/utils.h \
- /home/amgalan/CLionProjects/tetris/build/_deps/raylib-src/src/rlgl.h \
- /home/amgalan/CLionProjects/tetris/build/_deps/raylib-src/src/external/glad.h \
+ /home/amgalan/Documents/university/aip/project/ForAristarh/build/_deps/raylib-src/src/config.h \
+ /home/amgalan/Documents/university/aip/project/ForAristarh/build/_deps/raylib-src/src/utils.h \
+ /home/amgalan/Documents/university/aip/project/ForAristarh/build/_deps/raylib-src/src/rlgl.h \
+ /home/amgalan/Documents/university/aip/project/ForAristarh/build/_deps/raylib-src/src/external/glad.h \
  /usr/lib/gcc/x86_64-linux-gnu/12/include/stdint.h /usr/include/stdint.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
  /usr/include/features.h /usr/include/features-time64.h \
@@ -67,17 +67,17 @@ _deps/raylib-build/raylib/CMakeFiles/raylib.dir/rcore.c.o: \
  /usr/include/x86_64-linux-gnu/bits/fp-fast.h \
  /usr/include/x86_64-linux-gnu/bits/mathcalls-helper-functions.h \
  /usr/include/x86_64-linux-gnu/bits/mathcalls.h \
- /home/amgalan/CLionProjects/tetris/build/_deps/raylib-src/src/raymath.h \
- /home/amgalan/CLionProjects/tetris/build/_deps/raylib-src/src/rgestures.h \
- /home/amgalan/CLionProjects/tetris/build/_deps/raylib-src/src/rcamera.h \
- /home/amgalan/CLionProjects/tetris/build/_deps/raylib-src/src/external/msf_gif.h \
+ /home/amgalan/Documents/university/aip/project/ForAristarh/build/_deps/raylib-src/src/raymath.h \
+ /home/amgalan/Documents/university/aip/project/ForAristarh/build/_deps/raylib-src/src/rgestures.h \
+ /home/amgalan/Documents/university/aip/project/ForAristarh/build/_deps/raylib-src/src/rcamera.h \
+ /home/amgalan/Documents/university/aip/project/ForAristarh/build/_deps/raylib-src/src/external/msf_gif.h \
  /usr/lib/gcc/x86_64-linux-gnu/12/include/emmintrin.h \
  /usr/lib/gcc/x86_64-linux-gnu/12/include/xmmintrin.h \
  /usr/lib/gcc/x86_64-linux-gnu/12/include/mmintrin.h \
  /usr/lib/gcc/x86_64-linux-gnu/12/include/mm_malloc.h \
- /home/amgalan/CLionProjects/tetris/build/_deps/raylib-src/src/external/sinfl.h \
+ /home/amgalan/Documents/university/aip/project/ForAristarh/build/_deps/raylib-src/src/external/sinfl.h \
  /usr/include/assert.h \
- /home/amgalan/CLionProjects/tetris/build/_deps/raylib-src/src/external/sdefl.h \
+ /home/amgalan/Documents/university/aip/project/ForAristarh/build/_deps/raylib-src/src/external/sdefl.h \
  /usr/lib/gcc/x86_64-linux-gnu/12/include/limits.h \
  /usr/lib/gcc/x86_64-linux-gnu/12/include/syslimits.h \
  /usr/include/limits.h /usr/include/x86_64-linux-gnu/bits/posix1_lim.h \
@@ -100,6 +100,6 @@ _deps/raylib-build/raylib/CMakeFiles/raylib.dir/rcore.c.o: \
  /usr/include/x86_64-linux-gnu/bits/struct_stat.h /usr/include/dirent.h \
  /usr/include/x86_64-linux-gnu/bits/dirent.h \
  /usr/include/x86_64-linux-gnu/bits/dirent_ext.h \
- /home/amgalan/CLionProjects/tetris/build/_deps/raylib-src/src/external/glfw/include/GLFW/glfw3.h \
+ /home/amgalan/Documents/university/aip/project/ForAristarh/build/_deps/raylib-src/src/external/glfw/include/GLFW/glfw3.h \
  /usr/include/x86_64-linux-gnu/sys/time.h \
- /home/amgalan/CLionProjects/tetris/build/_deps/raylib-src/src/external/glfw/include/GLFW/glfw3native.h
+ /home/amgalan/Documents/university/aip/project/ForAristarh/build/_deps/raylib-src/src/external/glfw/include/GLFW/glfw3native.h

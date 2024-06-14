@@ -1,0 +1,107 @@
+\hypertarget{structandroid__app}{}\doxysection{android\+\_\+app Struct Reference}
+\label{structandroid__app}\index{android\_app@{android\_app}}
+
+
+{\ttfamily \#include $<$android\+\_\+native\+\_\+app\+\_\+glue.\+h$>$}
+
+
+
+Collaboration diagram for android\+\_\+app\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=216pt]{structandroid__app__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{structandroid__app_a3c20c59e9602efc418ff8aa057686789}\label{structandroid__app_a3c20c59e9602efc418ff8aa057686789}} 
+void $\ast$ {\bfseries user\+Data}
+\item 
+\mbox{\Hypertarget{structandroid__app_aba9f81527b0c5c5ec27a9736b0f49dca}\label{structandroid__app_aba9f81527b0c5c5ec27a9736b0f49dca}} 
+void($\ast$ {\bfseries on\+App\+Cmd} )(struct \mbox{\hyperlink{structandroid__app}{android\+\_\+app}} $\ast$app, int32\+\_\+t cmd)
+\item 
+\mbox{\Hypertarget{structandroid__app_a6849cdb4c49c50d0f23a52816a0728e9}\label{structandroid__app_a6849cdb4c49c50d0f23a52816a0728e9}} 
+int32\+\_\+t($\ast$ {\bfseries on\+Input\+Event} )(struct \mbox{\hyperlink{structandroid__app}{android\+\_\+app}} $\ast$app, AInput\+Event $\ast$event)
+\item 
+\mbox{\Hypertarget{structandroid__app_ad360e5a95d238621b20e9d932eb9dbaf}\label{structandroid__app_ad360e5a95d238621b20e9d932eb9dbaf}} 
+ANative\+Activity $\ast$ {\bfseries activity}
+\item 
+\mbox{\Hypertarget{structandroid__app_a87fa87e64ffd6653488a95aec8a1644e}\label{structandroid__app_a87fa87e64ffd6653488a95aec8a1644e}} 
+AConfiguration $\ast$ {\bfseries config}
+\item 
+\mbox{\Hypertarget{structandroid__app_ad10aff46e12d6c40ad762d07832002cd}\label{structandroid__app_ad10aff46e12d6c40ad762d07832002cd}} 
+void $\ast$ {\bfseries saved\+State}
+\item 
+\mbox{\Hypertarget{structandroid__app_a2194e58c113f617e474728d15193e4e1}\label{structandroid__app_a2194e58c113f617e474728d15193e4e1}} 
+size\+\_\+t {\bfseries saved\+State\+Size}
+\item 
+\mbox{\Hypertarget{structandroid__app_acc2047da5a30428eeaec2adf21c5d31f}\label{structandroid__app_acc2047da5a30428eeaec2adf21c5d31f}} 
+ALooper $\ast$ {\bfseries looper}
+\item 
+\mbox{\Hypertarget{structandroid__app_ae97cdea210d2e0a333726317a4603a1c}\label{structandroid__app_ae97cdea210d2e0a333726317a4603a1c}} 
+AInput\+Queue $\ast$ {\bfseries input\+Queue}
+\item 
+\mbox{\Hypertarget{structandroid__app_ad3e679849cc0887975c4bcfdd151e1ca}\label{structandroid__app_ad3e679849cc0887975c4bcfdd151e1ca}} 
+ANative\+Window $\ast$ {\bfseries window}
+\item 
+\mbox{\Hypertarget{structandroid__app_a8502b9a38db281f86421191fba5e82ab}\label{structandroid__app_a8502b9a38db281f86421191fba5e82ab}} 
+ARect {\bfseries content\+Rect}
+\item 
+\mbox{\Hypertarget{structandroid__app_aa7ec7147572780debc989a1d4d175383}\label{structandroid__app_aa7ec7147572780debc989a1d4d175383}} 
+int {\bfseries activity\+State}
+\item 
+\mbox{\Hypertarget{structandroid__app_a28aec6ab9685d0cba4a1fcb2fb78ea99}\label{structandroid__app_a28aec6ab9685d0cba4a1fcb2fb78ea99}} 
+int {\bfseries destroy\+Requested}
+\item 
+\mbox{\Hypertarget{structandroid__app_a3a1f74c4af609c4c7ae4457a7c686f61}\label{structandroid__app_a3a1f74c4af609c4c7ae4457a7c686f61}} 
+pthread\+\_\+mutex\+\_\+t {\bfseries mutex}
+\item 
+\mbox{\Hypertarget{structandroid__app_a89324f948282d6551d919cefdcd667b0}\label{structandroid__app_a89324f948282d6551d919cefdcd667b0}} 
+pthread\+\_\+cond\+\_\+t {\bfseries cond}
+\item 
+\mbox{\Hypertarget{structandroid__app_a9b66853f6e98efd59c9a4b27b4e1fbef}\label{structandroid__app_a9b66853f6e98efd59c9a4b27b4e1fbef}} 
+int {\bfseries msgread}
+\item 
+\mbox{\Hypertarget{structandroid__app_adef48f78848f853957640e9798a99390}\label{structandroid__app_adef48f78848f853957640e9798a99390}} 
+int {\bfseries msgwrite}
+\item 
+\mbox{\Hypertarget{structandroid__app_ad4673c395bd118da630a9519b2637bca}\label{structandroid__app_ad4673c395bd118da630a9519b2637bca}} 
+pthread\+\_\+t {\bfseries thread}
+\item 
+\mbox{\Hypertarget{structandroid__app_a6cb348c61073727f63377d17f46cb65a}\label{structandroid__app_a6cb348c61073727f63377d17f46cb65a}} 
+struct \mbox{\hyperlink{structandroid__poll__source}{android\+\_\+poll\+\_\+source}} {\bfseries cmd\+Poll\+Source}
+\item 
+\mbox{\Hypertarget{structandroid__app_a166449235d0e396b525bb999de75c0a4}\label{structandroid__app_a166449235d0e396b525bb999de75c0a4}} 
+struct \mbox{\hyperlink{structandroid__poll__source}{android\+\_\+poll\+\_\+source}} {\bfseries input\+Poll\+Source}
+\item 
+\mbox{\Hypertarget{structandroid__app_a190c62e896f82c250374fad40ba8ae24}\label{structandroid__app_a190c62e896f82c250374fad40ba8ae24}} 
+int {\bfseries running}
+\item 
+\mbox{\Hypertarget{structandroid__app_ac73b6aa897edb307e948d0eee9626c98}\label{structandroid__app_ac73b6aa897edb307e948d0eee9626c98}} 
+int {\bfseries state\+Saved}
+\item 
+\mbox{\Hypertarget{structandroid__app_ab4b551733da7fe120c791392f65f5679}\label{structandroid__app_ab4b551733da7fe120c791392f65f5679}} 
+int {\bfseries destroyed}
+\item 
+\mbox{\Hypertarget{structandroid__app_ae89558379501525a919e14b7f672a4fe}\label{structandroid__app_ae89558379501525a919e14b7f672a4fe}} 
+int {\bfseries redraw\+Needed}
+\item 
+\mbox{\Hypertarget{structandroid__app_afa278420177714b8ac4ea0db662f6137}\label{structandroid__app_afa278420177714b8ac4ea0db662f6137}} 
+AInput\+Queue $\ast$ {\bfseries pending\+Input\+Queue}
+\item 
+\mbox{\Hypertarget{structandroid__app_adb498bb33af84faa78065fec02ccef34}\label{structandroid__app_adb498bb33af84faa78065fec02ccef34}} 
+ANative\+Window $\ast$ {\bfseries pending\+Window}
+\item 
+\mbox{\Hypertarget{structandroid__app_ad4fa67ecf38286ac638b97cf936a8196}\label{structandroid__app_ad4fa67ecf38286ac638b97cf936a8196}} 
+ARect {\bfseries pending\+Content\+Rect}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Это интерфейс стандартного кода приклеивания поточного приложения. В этой модели код приложения выполняется в своем собственном потоке, отдельном от основного потока процесса. Не требуется связь данного потока с ВМ Java , хотя это необходимо для выполнения вызовов JNI любых объектов Java. 
+
+The documentation for this struct was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+build/\+\_\+deps/raylib-\/src/projects/\+VS2019-\/\+Android/raylib\+\_\+android/raylib\+\_\+android.\+Native\+Activity/android\+\_\+native\+\_\+app\+\_\+glue.\+h\end{DoxyCompactItemize}

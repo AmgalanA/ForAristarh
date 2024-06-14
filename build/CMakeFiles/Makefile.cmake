@@ -7,7 +7,7 @@ set(CMAKE_DEPENDS_GENERATOR "Unix Makefiles")
 # The top level Makefile was generated from the following files:
 set(CMAKE_MAKEFILE_DEPENDS
   "CMakeCache.txt"
-  "/home/amgalan/CLionProjects/tetris/CMakeLists.txt"
+  "/home/amgalan/Documents/university/aip/project/ForAristarh/CMakeLists.txt"
   "CMakeFiles/3.29.4/CMakeCCompiler.cmake"
   "CMakeFiles/3.29.4/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.29.4/CMakeSystem.cmake"
@@ -111,7 +111,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/untitled.dir/DependInfo.cmake"
-  "CMakeFiles/my_test.dir/DependInfo.cmake"
+  "CMakeFiles/my_tests.dir/DependInfo.cmake"
   "_deps/raylib-build/raylib/CMakeFiles/raylib.dir/DependInfo.cmake"
   "_deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/DependInfo.cmake"
   "_deps/raylib-build/raylib/external/glfw/src/CMakeFiles/update_mappings.dir/DependInfo.cmake"

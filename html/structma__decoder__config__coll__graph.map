@@ -1,0 +1,7 @@
+<map id="ma_decoder_config" name="ma_decoder_config">
+<area shape="rect" id="node1" title=" " alt="" coords="223,213,371,240"/>
+<area shape="rect" id="node2" href="$structma__decoding__backend__vtable.html" title=" " alt="" coords="5,109,176,151"/>
+<area shape="rect" id="node3" href="$structma__allocation__callbacks.html" title=" " alt="" coords="206,117,389,143"/>
+<area shape="rect" id="node4" href="$structma__resampler__config.html" title=" " alt="" coords="413,117,576,143"/>
+<area shape="rect" id="node5" href="$structma__resampling__backend__vtable.html" title=" " alt="" coords="403,5,587,47"/>
+</map>

@@ -1,0 +1,7 @@
+<map id="Material" name="Material">
+<area shape="rect" id="node1" title=" " alt="" coords="41,184,117,211"/>
+<area shape="rect" id="node2" href="$structShader.html" title=" " alt="" coords="5,95,72,121"/>
+<area shape="rect" id="node3" href="$structMaterialMap.html" title=" " alt="" coords="96,95,200,121"/>
+<area shape="rect" id="node4" href="$structTexture.html" title=" " alt="" coords="69,5,139,32"/>
+<area shape="rect" id="node5" href="$structColor.html" title=" " alt="" coords="164,5,220,32"/>
+</map>

@@ -1,0 +1,7 @@
+<map id="ma_audio_buffer" name="ma_audio_buffer">
+<area shape="rect" id="node1" title=" " alt="" coords="119,273,250,300"/>
+<area shape="rect" id="node2" href="$structma__allocation__callbacks.html" title=" " alt="" coords="5,184,188,211"/>
+<area shape="rect" id="node3" href="$structma__audio__buffer__ref.html" title=" " alt="" coords="212,184,368,211"/>
+<area shape="rect" id="node4" href="$structma__data__source__base.html" title=" " alt="" coords="207,95,373,121"/>
+<area shape="rect" id="node5" href="$structma__data__source__vtable.html" title=" " alt="" coords="201,5,379,32"/>
+</map>

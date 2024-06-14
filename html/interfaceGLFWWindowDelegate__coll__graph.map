@@ -1,0 +1,10 @@
+<map id="GLFWWindowDelegate" name="GLFWWindowDelegate">
+<area shape="rect" id="node1" title=" " alt="" coords="5,201,176,228"/>
+<area shape="rect" id="node2" title=" " alt="" coords="49,96,132,123"/>
+<area shape="rect" id="node3" href="$struct__GLFWwindow.html" title=" " alt="" coords="156,96,273,123"/>
+<area shape="rect" id="node6" href="$struct__GLFWmonitor.html" title=" " alt="" coords="322,201,441,228"/>
+<area shape="rect" id="node4" href="$struct__GLFWcontext.html" title=" " alt="" coords="102,5,218,32"/>
+<area shape="rect" id="node5" href="$structGLFWvidmode.html" title="Video mode type." alt="" coords="487,5,604,32"/>
+<area shape="rect" id="node7" href="$structGLFWgammaramp.html" title="Gamma ramp." alt="" coords="355,96,499,123"/>
+<area shape="rect" id="node8" href="$struct__GLFWcursor.html" title=" " alt="" coords="243,5,349,32"/>
+</map>

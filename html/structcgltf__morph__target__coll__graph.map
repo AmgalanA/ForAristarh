@@ -1,0 +1,12 @@
+<map id="cgltf_morph_target" name="cgltf_morph_target">
+<area shape="rect" id="node1" title=" " alt="" coords="5,963,152,989"/>
+<area shape="rect" id="node2" href="$structcgltf__attribute.html" title=" " alt="" coords="176,873,291,900"/>
+<area shape="rect" id="node3" href="$structcgltf__accessor.html" title=" " alt="" coords="303,784,417,811"/>
+<area shape="rect" id="node4" href="$structcgltf__buffer__view.html" title=" " alt="" coords="399,591,534,617"/>
+<area shape="rect" id="node10" href="$structcgltf__accessor__sparse.html" title=" " alt="" coords="384,695,549,721"/>
+<area shape="rect" id="node5" href="$structcgltf__buffer.html" title=" " alt="" coords="579,261,675,288"/>
+<area shape="rect" id="node9" href="$structcgltf__meshopt__compression.html" title=" " alt="" coords="564,485,769,512"/>
+<area shape="rect" id="node6" href="$structcgltf__extras.html" title=" " alt="" coords="773,111,872,137"/>
+<area shape="rect" id="node7" title=" " alt="" coords="706,5,766,32"/>
+<area shape="rect" id="node8" href="$structcgltf__extension.html" title=" " alt="" coords="219,111,341,137"/>
+</map>
